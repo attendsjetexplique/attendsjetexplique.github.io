@@ -1,0 +1,3137 @@
+{
+ "maj": "2026-11-14",
+ "vitesse_kmh": 5.0,
+ "villes": [
+  {
+   "cle": "paris",
+   "nom": "Paris",
+   "km_total": 1874,
+   "km_rues": 1527,
+   "km_refait": 347,
+   "nb_etapes": 94,
+   "perimetre": "Voies publiques de Paris, sans les bois de Boulogne et de Vincennes, le périphérique ni les souterrains.",
+   "source": "Ville de Paris, filaire des voies (opendata.paris.fr), données du 08/11/2026",
+   "complet": "paris/gpx/paris-complet.gpx",
+   "etapes": [
+    {
+     "n": 1,
+     "km": 18.8,
+     "km_refait": 3.7,
+     "duree": "3 h 45",
+     "depart": {
+      "rue": "Parvis Notre-Dame Place Jean-Paul II",
+      "station": "Saint-Michel Notre-Dame (gare, 220 m)",
+      "p": [
+       2.34874,
+       48.85309
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Saint-Sulpice",
+      "station": "Odéon (métro, 120 m)",
+      "p": [
+       2.33825,
+       48.8515
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-01.gpx"
+    },
+    {
+     "n": 2,
+     "km": 21.3,
+     "km_refait": 3.9,
+     "duree": "4 h 16",
+     "depart": {
+      "rue": "Rue de Condé",
+      "station": "Odéon (métro, 120 m)",
+      "p": [
+       2.33825,
+       48.8515
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Cacheux",
+      "station": "Stade Charléty (tram, 30 m)",
+      "p": [
+       2.34606,
+       48.81971
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-02.gpx"
+    },
+    {
+     "n": 3,
+     "km": 20.0,
+     "km_refait": 3.6,
+     "duree": "4 h 00",
+     "depart": {
+      "rue": "Boulevard Kellermann",
+      "station": "Stade Charléty (tram, 30 m)",
+      "p": [
+       2.34606,
+       48.81971
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard Auguste Blanqui",
+      "station": "Glacière (métro, 60 m)",
+      "p": [
+       2.34424,
+       48.8311
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-03.gpx"
+    },
+    {
+     "n": 4,
+     "km": 18.4,
+     "km_refait": 2.8,
+     "duree": "3 h 41",
+     "depart": {
+      "rue": "Rue de la Glacière",
+      "station": "Glacière (métro, 60 m)",
+      "p": [
+       2.34424,
+       48.8311
+      ]
+     },
+     "arrivee": {
+      "rue": "Place Bernard Halpern",
+      "station": "Censier - Daubenton (métro, 60 m)",
+      "p": [
+       2.35116,
+       48.8404
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-04.gpx"
+    },
+    {
+     "n": 5,
+     "km": 20.9,
+     "km_refait": 4.2,
+     "duree": "4 h 10",
+     "depart": {
+      "rue": "Rue Daubenton",
+      "station": "Censier - Daubenton (métro, 60 m)",
+      "p": [
+       2.35116,
+       48.8404
+      ]
+     },
+     "arrivee": {
+      "rue": "Voie Georges Pompidou",
+      "station": "Pont Marie (métro, 30 m)",
+      "p": [
+       2.35636,
+       48.85361
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-05.gpx"
+    },
+    {
+     "n": 6,
+     "km": 19.9,
+     "km_refait": 4.4,
+     "duree": "3 h 59",
+     "depart": {
+      "rue": "Voie Georges Pompidou",
+      "station": "Pont Marie (métro, 30 m)",
+      "p": [
+       2.35636,
+       48.85361
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de Rivoli",
+      "station": "Châtelet (métro, 80 m)",
+      "p": [
+       2.34645,
+       48.85909
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-06.gpx"
+    },
+    {
+     "n": 7,
+     "km": 19.6,
+     "km_refait": 3.2,
+     "duree": "3 h 55",
+     "depart": {
+      "rue": "Rue des Lavandières Sainte-Opportune",
+      "station": "Châtelet (métro, 80 m)",
+      "p": [
+       2.34645,
+       48.85909
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Réaumur",
+      "station": "Réaumur - Sébastopol (métro, 10 m)",
+      "p": [
+       2.35252,
+       48.86622
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-07.gpx"
+    },
+    {
+     "n": 8,
+     "km": 19.8,
+     "km_refait": 4.5,
+     "duree": "3 h 58",
+     "depart": {
+      "rue": "Boulevard de Sébastopol",
+      "station": "Réaumur - Sébastopol (métro, 10 m)",
+      "p": [
+       2.35252,
+       48.86622
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue des Pyramides",
+      "station": "Pyramides (métro, 60 m)",
+      "p": [
+       2.33358,
+       48.86576
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-08.gpx"
+    },
+    {
+     "n": 9,
+     "km": 20.0,
+     "km_refait": 3.0,
+     "duree": "4 h 00",
+     "depart": {
+      "rue": "Rue d'Argenteuil",
+      "station": "Pyramides (métro, 60 m)",
+      "p": [
+       2.33358,
+       48.86576
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue du Temple",
+      "station": "République (métro, 50 m)",
+      "p": [
+       2.36331,
+       48.8673
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-09.gpx"
+    },
+    {
+     "n": 10,
+     "km": 19.9,
+     "km_refait": 3.6,
+     "duree": "3 h 58",
+     "depart": {
+      "rue": "Rue du Temple",
+      "station": "République (métro, 50 m)",
+      "p": [
+       2.36331,
+       48.8673
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Saint-Louis en l'Île",
+      "station": "Sully - Morland (métro, 160 m)",
+      "p": [
+       2.36003,
+       48.85059
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-10.gpx"
+    },
+    {
+     "n": 11,
+     "km": 20.3,
+     "km_refait": 3.2,
+     "duree": "4 h 03",
+     "depart": {
+      "rue": "Rue Saint-Louis en l'Île",
+      "station": "Sully - Morland (métro, 160 m)",
+      "p": [
+       2.36003,
+       48.85059
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard Henri IV",
+      "station": "Bastille (métro, 40 m)",
+      "p": [
+       2.36828,
+       48.85288
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-11.gpx"
+    },
+    {
+     "n": 12,
+     "km": 19.8,
+     "km_refait": 4.4,
+     "duree": "3 h 57",
+     "depart": {
+      "rue": "Boulevard Henri IV",
+      "station": "Bastille (métro, 40 m)",
+      "p": [
+       2.36828,
+       48.85288
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue des Boulets",
+      "station": "Rue des Boulets (métro, 30 m)",
+      "p": [
+       2.38908,
+       48.85245
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-12.gpx"
+    },
+    {
+     "n": 13,
+     "km": 21.4,
+     "km_refait": 4.6,
+     "duree": "4 h 17",
+     "depart": {
+      "rue": "Rue des Boulets",
+      "station": "Rue des Boulets (métro, 30 m)",
+      "p": [
+       2.38908,
+       48.85245
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Harpignies",
+      "station": "Marie de Miribel (tram, 10 m)",
+      "p": [
+       2.40969,
+       48.85863
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-13.gpx"
+    },
+    {
+     "n": 14,
+     "km": 20.0,
+     "km_refait": 4.3,
+     "duree": "4 h 01",
+     "depart": {
+      "rue": "Rue du Clos",
+      "station": "Marie de Miribel (tram, 10 m)",
+      "p": [
+       2.40969,
+       48.85863
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Pierre Mouillard",
+      "station": "Séverine (tram, 70 m)",
+      "p": [
+       2.40824,
+       48.86711
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-14.gpx"
+    },
+    {
+     "n": 15,
+     "km": 19.3,
+     "km_refait": 4.0,
+     "duree": "3 h 52",
+     "depart": {
+      "rue": "Rue Irénée Blanc",
+      "station": "Séverine (tram, 70 m)",
+      "p": [
+       2.40824,
+       48.86711
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue des Marchais",
+      "station": "Butte du Chapeau-Rouge (tram, 50 m)",
+      "p": [
+       2.39677,
+       48.88454
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-15.gpx"
+    },
+    {
+     "n": 16,
+     "km": 20.2,
+     "km_refait": 3.3,
+     "duree": "4 h 02",
+     "depart": {
+      "rue": "Boulevard d'Indochine",
+      "station": "Butte du Chapeau-Rouge (tram, 50 m)",
+      "p": [
+       2.39677,
+       48.88454
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue du Père Lachaise",
+      "station": "Gambetta (métro, 60 m)",
+      "p": [
+       2.39805,
+       48.86442
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-16.gpx"
+    },
+    {
+     "n": 17,
+     "km": 19.4,
+     "km_refait": 3.2,
+     "duree": "3 h 53",
+     "depart": {
+      "rue": "Rue Malte Brun",
+      "station": "Gambetta (métro, 60 m)",
+      "p": [
+       2.39805,
+       48.86442
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Parmentier",
+      "station": "Goncourt (métro, 0 m)",
+      "p": [
+       2.37103,
+       48.87
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-17.gpx"
+    },
+    {
+     "n": 18,
+     "km": 20.8,
+     "km_refait": 3.9,
+     "duree": "4 h 10",
+     "depart": {
+      "rue": "Avenue Parmentier",
+      "station": "Goncourt (métro, 0 m)",
+      "p": [
+       2.37103,
+       48.87
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de Belleville",
+      "station": "Pyrénées (métro, 10 m)",
+      "p": [
+       2.38535,
+       48.87393
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-18.gpx"
+    },
+    {
+     "n": 19,
+     "km": 18.5,
+     "km_refait": 3.4,
+     "duree": "3 h 42",
+     "depart": {
+      "rue": "Rue de Belleville",
+      "station": "Pyrénées (métro, 10 m)",
+      "p": [
+       2.38535,
+       48.87393
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de Belleville",
+      "station": "Jourdain (métro, 30 m)",
+      "p": [
+       2.38963,
+       48.87527
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-19.gpx"
+    },
+    {
+     "n": 20,
+     "km": 19.8,
+     "km_refait": 4.3,
+     "duree": "3 h 58",
+     "depart": {
+      "rue": "Rue de Palestine",
+      "station": "Jourdain (métro, 30 m)",
+      "p": [
+       2.38963,
+       48.87527
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de Joinville",
+      "station": "Crimée (métro, 30 m)",
+      "p": [
+       2.37758,
+       48.89112
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-20.gpx"
+    },
+    {
+     "n": 21,
+     "km": 21.0,
+     "km_refait": 4.2,
+     "duree": "4 h 12",
+     "depart": {
+      "rue": "Avenue de Flandre",
+      "station": "Crimée (métro, 30 m)",
+      "p": [
+       2.37758,
+       48.89112
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue du Mont Cenis",
+      "station": "Jules Joffrin (métro, 30 m)",
+      "p": [
+       2.34429,
+       48.89254
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-21.gpx"
+    },
+    {
+     "n": 22,
+     "km": 20.2,
+     "km_refait": 3.5,
+     "duree": "4 h 02",
+     "depart": {
+      "rue": "Place Jules Joffrin",
+      "station": "Jules Joffrin (métro, 30 m)",
+      "p": [
+       2.34429,
+       48.89254
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Lamarck",
+      "station": "Lamarck - Caulaincourt (métro, 170 m)",
+      "p": [
+       2.33661,
+       48.89023
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-22.gpx"
+    },
+    {
+     "n": 23,
+     "km": 19.7,
+     "km_refait": 3.9,
+     "duree": "3 h 57",
+     "depart": {
+      "rue": "Rue Lamarck",
+      "station": "Lamarck - Caulaincourt (métro, 170 m)",
+      "p": [
+       2.33661,
+       48.89023
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue La Vieuville",
+      "station": "Abbesses (métro, 30 m)",
+      "p": [
+       2.33884,
+       48.88461
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-23.gpx"
+    },
+    {
+     "n": 24,
+     "km": 19.4,
+     "km_refait": 2.9,
+     "duree": "3 h 53",
+     "depart": {
+      "rue": "Rue La Vieuville",
+      "station": "Abbesses (métro, 30 m)",
+      "p": [
+       2.33884,
+       48.88461
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard Marguerite de Rochechouart",
+      "station": "Anvers (métro, 20 m)",
+      "p": [
+       2.34445,
+       48.88293
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-24.gpx"
+    },
+    {
+     "n": 25,
+     "km": 20.7,
+     "km_refait": 5.3,
+     "duree": "4 h 08",
+     "depart": {
+      "rue": "Boulevard Marguerite de Rochechouart",
+      "station": "Anvers (métro, 20 m)",
+      "p": [
+       2.34445,
+       48.88293
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Émile Bollaert",
+      "station": "Canal Saint-Denis (tram, 140 m)",
+      "p": [
+       2.37975,
+       48.89992
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-25.gpx"
+    },
+    {
+     "n": 26,
+     "km": 21.3,
+     "km_refait": 5.0,
+     "duree": "4 h 16",
+     "depart": {
+      "rue": "Rue Émile Bollaert",
+      "station": "Canal Saint-Denis (tram, 140 m)",
+      "p": [
+       2.37975,
+       48.89992
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue de Flandre",
+      "station": "Corentin Cariou (métro, 10 m)",
+      "p": [
+       2.38222,
+       48.8947
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-26.gpx"
+    },
+    {
+     "n": 27,
+     "km": 19.6,
+     "km_refait": 3.4,
+     "duree": "3 h 55",
+     "depart": {
+      "rue": "Avenue de Flandre",
+      "station": "Corentin Cariou (métro, 10 m)",
+      "p": [
+       2.38222,
+       48.8947
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue du Faubourg Saint-Martin",
+      "station": "Château Landon (métro, 10 m)",
+      "p": [
+       2.36242,
+       48.87886
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-27.gpx"
+    },
+    {
+     "n": 28,
+     "km": 19.7,
+     "km_refait": 4.1,
+     "duree": "3 h 57",
+     "depart": {
+      "rue": "Rue du Faubourg Saint-Martin",
+      "station": "Château Landon (métro, 10 m)",
+      "p": [
+       2.36242,
+       48.87886
+      ]
+     },
+     "arrivee": {
+      "rue": "Place du 8 Novembre 1942",
+      "station": "Poissonnière (métro, 20 m)",
+      "p": [
+       2.34896,
+       48.87718
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-28.gpx"
+    },
+    {
+     "n": 29,
+     "km": 18.4,
+     "km_refait": 3.1,
+     "duree": "3 h 41",
+     "depart": {
+      "rue": "Rue du Faubourg Poissonnière",
+      "station": "Poissonnière (métro, 20 m)",
+      "p": [
+       2.34896,
+       48.87718
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard Voltaire",
+      "station": "Saint-Ambroise (métro, 10 m)",
+      "p": [
+       2.37482,
+       48.86097
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-29.gpx"
+    },
+    {
+     "n": 30,
+     "km": 20.3,
+     "km_refait": 3.8,
+     "duree": "4 h 04",
+     "depart": {
+      "rue": "Rue de la Folie-Méricourt",
+      "station": "Saint-Ambroise (métro, 10 m)",
+      "p": [
+       2.37482,
+       48.86097
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue du Faubourg Saint-Antoine",
+      "station": "Ledru-Rollin (métro, 50 m)",
+      "p": [
+       2.37536,
+       48.85148
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-30.gpx"
+    },
+    {
+     "n": 31,
+     "km": 20.8,
+     "km_refait": 3.7,
+     "duree": "4 h 09",
+     "depart": {
+      "rue": "Rue du Faubourg Saint-Antoine",
+      "station": "Ledru-Rollin (métro, 50 m)",
+      "p": [
+       2.37536,
+       48.85148
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue de Saint-Mandé",
+      "station": "Picpus (métro, 110 m)",
+      "p": [
+       2.40197,
+       48.84498
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-31.gpx"
+    },
+    {
+     "n": 32,
+     "km": 21.0,
+     "km_refait": 4.2,
+     "duree": "4 h 12",
+     "depart": {
+      "rue": "Avenue de Saint-Mandé",
+      "station": "Picpus (métro, 110 m)",
+      "p": [
+       2.40197,
+       48.84498
+      ]
+     },
+     "arrivee": {
+      "rue": "Place Édouard Renard",
+      "station": "Porte Dorée (métro, 30 m)",
+      "p": [
+       2.40651,
+       48.83537
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-32.gpx"
+    },
+    {
+     "n": 33,
+     "km": 19.7,
+     "km_refait": 4.3,
+     "duree": "3 h 57",
+     "depart": {
+      "rue": "Boulevard Poniatowski",
+      "station": "Porte Dorée (métro, 30 m)",
+      "p": [
+       2.40651,
+       48.83537
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard de Picpus",
+      "station": "Bel-Air (métro, 50 m)",
+      "p": [
+       2.40093,
+       48.84087
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-33.gpx"
+    },
+    {
+     "n": 34,
+     "km": 19.0,
+     "km_refait": 2.3,
+     "duree": "3 h 48",
+     "depart": {
+      "rue": "Rue de Toul",
+      "station": "Bel-Air (métro, 50 m)",
+      "p": [
+       2.40093,
+       48.84087
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue des Pyrénées",
+      "station": "Maraîchers (métro, 0 m)",
+      "p": [
+       2.40612,
+       48.8527
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-34.gpx"
+    },
+    {
+     "n": 35,
+     "km": 19.9,
+     "km_refait": 2.6,
+     "duree": "3 h 58",
+     "depart": {
+      "rue": "Rue des Pyrénées",
+      "station": "Maraîchers (métro, 0 m)",
+      "p": [
+       2.40612,
+       48.8527
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard de Ménilmontant",
+      "station": "Père Lachaise (métro, 10 m)",
+      "p": [
+       2.38754,
+       48.86294
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-35.gpx"
+    },
+    {
+     "n": 36,
+     "km": 19.5,
+     "km_refait": 2.8,
+     "duree": "3 h 54",
+     "depart": {
+      "rue": "Place Auguste Métivier",
+      "station": "Père Lachaise (métro, 10 m)",
+      "p": [
+       2.38754,
+       48.86294
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Jean Jaurès",
+      "station": "Laumière (métro, 10 m)",
+      "p": [
+       2.37936,
+       48.88518
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-36.gpx"
+    },
+    {
+     "n": 37,
+     "km": 23.2,
+     "km_refait": 5.6,
+     "duree": "4 h 39",
+     "depart": {
+      "rue": "Avenue Jean Jaurès",
+      "station": "Laumière (métro, 10 m)",
+      "p": [
+       2.37936,
+       48.88518
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard Mortier",
+      "station": "Porte des Lilas (tram, 20 m)",
+      "p": [
+       2.40694,
+       48.87676
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-37.gpx"
+    },
+    {
+     "n": 38,
+     "km": 20.4,
+     "km_refait": 4.3,
+     "duree": "4 h 04",
+     "depart": {
+      "rue": "Boulevard Mortier",
+      "station": "Porte des Lilas (tram, 20 m)",
+      "p": [
+       2.40694,
+       48.87676
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard Davout",
+      "station": "Porte de Montreuil (métro, 0 m)",
+      "p": [
+       2.41064,
+       48.8535
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-38.gpx"
+    },
+    {
+     "n": 39,
+     "km": 18.8,
+     "km_refait": 3.8,
+     "duree": "3 h 46",
+     "depart": {
+      "rue": "Rue d'Avron",
+      "station": "Porte de Montreuil (métro, 0 m)",
+      "p": [
+       2.41064,
+       48.8535
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue du Faubourg Saint-Antoine",
+      "station": "Faidherbe — Chaligny (métro, 10 m)",
+      "p": [
+       2.38434,
+       48.85013
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-39.gpx"
+    },
+    {
+     "n": 40,
+     "km": 21.3,
+     "km_refait": 4.6,
+     "duree": "4 h 15",
+     "depart": {
+      "rue": "Rue du Faubourg Saint-Antoine",
+      "station": "Faidherbe — Chaligny (métro, 10 m)",
+      "p": [
+       2.38434,
+       48.85013
+      ]
+     },
+     "arrivee": {
+      "rue": "Place de la Nation",
+      "station": "Nation (métro, 20 m)",
+      "p": [
+       2.39581,
+       48.84779
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-40.gpx"
+    },
+    {
+     "n": 41,
+     "km": 19.3,
+     "km_refait": 3.8,
+     "duree": "3 h 52",
+     "depart": {
+      "rue": "Place de la Nation",
+      "station": "Nation (métro, 20 m)",
+      "p": [
+       2.39581,
+       48.84779
+      ]
+     },
+     "arrivee": {
+      "rue": "Voie Ce/12",
+      "station": "Baron Le Roy (tram, 270 m)",
+      "p": [
+       2.39229,
+       48.82811
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-41.gpx"
+    },
+    {
+     "n": 42,
+     "km": 19.9,
+     "km_refait": 5.3,
+     "duree": "3 h 59",
+     "depart": {
+      "rue": "Voie Ci/12",
+      "station": "Baron Le Roy (tram, 270 m)",
+      "p": [
+       2.39229,
+       48.82811
+      ]
+     },
+     "arrivee": {
+      "rue": "Quai de la Gare",
+      "station": "Quai de la Gare (métro, 90 m)",
+      "p": [
+       2.37401,
+       48.83718
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-42.gpx"
+    },
+    {
+     "n": 43,
+     "km": 20.3,
+     "km_refait": 4.3,
+     "duree": "4 h 04",
+     "depart": {
+      "rue": "Port de la Gare",
+      "station": "Quai de la Gare (métro, 90 m)",
+      "p": [
+       2.37401,
+       48.83718
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de Tolbiac",
+      "station": "Olympiades (métro, 10 m)",
+      "p": [
+       2.3665,
+       48.82702
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-43.gpx"
+    },
+    {
+     "n": 44,
+     "km": 20.1,
+     "km_refait": 4.4,
+     "duree": "4 h 01",
+     "depart": {
+      "rue": "Rue Nationale",
+      "station": "Olympiades (métro, 10 m)",
+      "p": [
+       2.3665,
+       48.82702
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue André Pieyre de Mandiargues",
+      "station": "Maison Blanche (métro, 10 m)",
+      "p": [
+       2.35878,
+       48.82145
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-44.gpx"
+    },
+    {
+     "n": 45,
+     "km": 20.3,
+     "km_refait": 5.1,
+     "duree": "4 h 04",
+     "depart": {
+      "rue": "Avenue d'Italie",
+      "station": "Maison Blanche (métro, 10 m)",
+      "p": [
+       2.35878,
+       48.82145
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard Jourdan",
+      "station": "Cité Universitaire (tram, 10 m)",
+      "p": [
+       2.33911,
+       48.82013
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-45.gpx"
+    },
+    {
+     "n": 46,
+     "km": 19.6,
+     "km_refait": 5.1,
+     "duree": "3 h 55",
+     "depart": {
+      "rue": "Avenue Rockefeller",
+      "station": "Cité Universitaire (tram, 10 m)",
+      "p": [
+       2.33911,
+       48.82013
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard Brune",
+      "station": "Didot (tram, 60 m)",
+      "p": [
+       2.31257,
+       48.82603
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-46.gpx"
+    },
+    {
+     "n": 47,
+     "km": 19.7,
+     "km_refait": 4.8,
+     "duree": "3 h 57",
+     "depart": {
+      "rue": "Avenue Georges Lafenestre",
+      "station": "Didot (tram, 60 m)",
+      "p": [
+       2.31257,
+       48.82603
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue de la Porte d'Orléans",
+      "station": "Porte d'Orléans (tram, 250 m)",
+      "p": [
+       2.3255,
+       48.82079
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-47.gpx"
+    },
+    {
+     "n": 48,
+     "km": 20.6,
+     "km_refait": 4.7,
+     "duree": "4 h 08",
+     "depart": {
+      "rue": "Avenue de la Porte d'Orléans",
+      "station": "Porte d'Orléans (tram, 250 m)",
+      "p": [
+       2.3255,
+       48.82079
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de l'Abbé Soulange-Bodin",
+      "station": "Pernety (métro, 150 m)",
+      "p": [
+       2.31786,
+       48.83533
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-48.gpx"
+    },
+    {
+     "n": 49,
+     "km": 20.1,
+     "km_refait": 4.4,
+     "duree": "4 h 01",
+     "depart": {
+      "rue": "Rue de l'Abbé Soulange-Bodin",
+      "station": "Pernety (métro, 150 m)",
+      "p": [
+       2.31786,
+       48.83533
+      ]
+     },
+     "arrivee": {
+      "rue": "Place Fernand Mourlot",
+      "station": "Edgar Quinet (métro, 20 m)",
+      "p": [
+       2.32482,
+       48.84119
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-49.gpx"
+    },
+    {
+     "n": 50,
+     "km": 19.6,
+     "km_refait": 3.1,
+     "duree": "3 h 56",
+     "depart": {
+      "rue": "Boulevard Edgar Quinet",
+      "station": "Edgar Quinet (métro, 20 m)",
+      "p": [
+       2.32482,
+       48.84119
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue d'Alésia",
+      "station": "Plaisance (métro, 40 m)",
+      "p": [
+       2.31357,
+       48.83196
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-50.gpx"
+    },
+    {
+     "n": 51,
+     "km": 20.8,
+     "km_refait": 3.0,
+     "duree": "4 h 10",
+     "depart": {
+      "rue": "Rue Decrès",
+      "station": "Plaisance (métro, 40 m)",
+      "p": [
+       2.31357,
+       48.83196
+      ]
+     },
+     "arrivee": {
+      "rue": "Place Denfert-Rochereau",
+      "station": "Denfert-Rochereau (métro, 20 m)",
+      "p": [
+       2.33235,
+       48.83421
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-51.gpx"
+    },
+    {
+     "n": 52,
+     "km": 20.6,
+     "km_refait": 2.5,
+     "duree": "4 h 07",
+     "depart": {
+      "rue": "Avenue du Colonel Henri Rol-Tanguy",
+      "station": "Denfert-Rochereau (métro, 20 m)",
+      "p": [
+       2.33235,
+       48.83421
+      ]
+     },
+     "arrivee": {
+      "rue": "Place Victor et Hélène Basch",
+      "station": "Alésia (métro, 20 m)",
+      "p": [
+       2.32679,
+       48.82809
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-52.gpx"
+    },
+    {
+     "n": 53,
+     "km": 21.0,
+     "km_refait": 2.5,
+     "duree": "4 h 13",
+     "depart": {
+      "rue": "Avenue du Maine",
+      "station": "Alésia (métro, 20 m)",
+      "p": [
+       2.32679,
+       48.82809
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Gracieuse",
+      "station": "Place Monge (métro, 70 m)",
+      "p": [
+       2.3514,
+       48.84322
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-53.gpx"
+    },
+    {
+     "n": 54,
+     "km": 19.3,
+     "km_refait": 4.3,
+     "duree": "3 h 51",
+     "depart": {
+      "rue": "Rue Ortolan",
+      "station": "Place Monge (métro, 70 m)",
+      "p": [
+       2.3514,
+       48.84322
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Gisèle Freund",
+      "station": "Paris Austerlitz RER (gare, 90 m)",
+      "p": [
+       2.3679,
+       48.84009
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-54.gpx"
+    },
+    {
+     "n": 55,
+     "km": 21.0,
+     "km_refait": 2.6,
+     "duree": "4 h 12",
+     "depart": {
+      "rue": "Rue David Bowie",
+      "station": "Paris Austerlitz RER (gare, 90 m)",
+      "p": [
+       2.3679,
+       48.84009
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue des Boulangers",
+      "station": "Cardinal Lemoine (métro, 10 m)",
+      "p": [
+       2.35172,
+       48.84644
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-55.gpx"
+    },
+    {
+     "n": 56,
+     "km": 18.2,
+     "km_refait": 2.8,
+     "duree": "3 h 39",
+     "depart": {
+      "rue": "Rue Monge",
+      "station": "Cardinal Lemoine (métro, 10 m)",
+      "p": [
+       2.35172,
+       48.84644
+      ]
+     },
+     "arrivee": {
+      "rue": "Quai d'Orsay",
+      "station": "Invalides (gare, 30 m)",
+      "p": [
+       2.31344,
+       48.86285
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-56.gpx"
+    },
+    {
+     "n": 57,
+     "km": 21.1,
+     "km_refait": 4.5,
+     "duree": "4 h 13",
+     "depart": {
+      "rue": "Quai d'Orsay",
+      "station": "Invalides (gare, 30 m)",
+      "p": [
+       2.31344,
+       48.86285
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Mirabeau",
+      "station": "Mirabeau (métro, 20 m)",
+      "p": [
+       2.27199,
+       48.8469
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-57.gpx"
+    },
+    {
+     "n": 58,
+     "km": 20.0,
+     "km_refait": 4.0,
+     "duree": "4 h 01",
+     "depart": {
+      "rue": "Rue Antoine Roucher",
+      "station": "Mirabeau (métro, 20 m)",
+      "p": [
+       2.27199,
+       48.8469
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Chardon-Lagache",
+      "station": "Chardon-Lagache (métro, 10 m)",
+      "p": [
+       2.26715,
+       48.84549
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-58.gpx"
+    },
+    {
+     "n": 59,
+     "km": 20.8,
+     "km_refait": 3.9,
+     "duree": "4 h 09",
+     "depart": {
+      "rue": "Rue Mirabeau",
+      "station": "Chardon-Lagache (métro, 10 m)",
+      "p": [
+       2.26715,
+       48.84549
+      ]
+     },
+     "arrivee": {
+      "rue": "Voie Bx/16",
+      "station": "Porte d'Auteuil (métro, 120 m)",
+      "p": [
+       2.2572,
+       48.84789
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-59.gpx"
+    },
+    {
+     "n": 60,
+     "km": 20.3,
+     "km_refait": 4.6,
+     "duree": "4 h 04",
+     "depart": {
+      "rue": "Place de la Porte d'Auteuil",
+      "station": "Porte d'Auteuil (métro, 120 m)",
+      "p": [
+       2.2572,
+       48.84789
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Paul Doumer",
+      "station": "La Muette (métro, 40 m)",
+      "p": [
+       2.27453,
+       48.85818
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-60.gpx"
+    },
+    {
+     "n": 61,
+     "km": 18.5,
+     "km_refait": 2.9,
+     "duree": "3 h 42",
+     "depart": {
+      "rue": "Chaussée de la Muette",
+      "station": "La Muette (métro, 40 m)",
+      "p": [
+       2.27453,
+       48.85818
+      ]
+     },
+     "arrivee": {
+      "rue": "Allée Pierre-Christian Taittinger",
+      "station": "Rue de la Pompe (métro, 50 m)",
+      "p": [
+       2.27749,
+       48.86404
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-61.gpx"
+    },
+    {
+     "n": 62,
+     "km": 19.8,
+     "km_refait": 2.3,
+     "duree": "3 h 57",
+     "depart": {
+      "rue": "Rue de la Pompe",
+      "station": "Rue de la Pompe (métro, 50 m)",
+      "p": [
+       2.27749,
+       48.86404
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Chardon-Lagache",
+      "station": "Église d'Auteuil (métro, 20 m)",
+      "p": [
+       2.26889,
+       48.8473
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-62.gpx"
+    },
+    {
+     "n": 63,
+     "km": 20.8,
+     "km_refait": 4.2,
+     "duree": "4 h 10",
+     "depart": {
+      "rue": "Rue Wilhem",
+      "station": "Église d'Auteuil (métro, 20 m)",
+      "p": [
+       2.26889,
+       48.8473
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard de Grenelle",
+      "station": "La Motte-Picquet - Grenelle (métro, 10 m)",
+      "p": [
+       2.29804,
+       48.84916
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-63.gpx"
+    },
+    {
+     "n": 64,
+     "km": 21.3,
+     "km_refait": 4.1,
+     "duree": "4 h 15",
+     "depart": {
+      "rue": "Avenue de la Motte-Picquet",
+      "station": "La Motte-Picquet - Grenelle (métro, 10 m)",
+      "p": [
+       2.29804,
+       48.84916
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue de la Motte-Picquet",
+      "station": "La Motte-Picquet - Grenelle (métro, 60 m)",
+      "p": [
+       2.29856,
+       48.84954
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-64.gpx"
+    },
+    {
+     "n": 65,
+     "km": 20.6,
+     "km_refait": 3.8,
+     "duree": "4 h 08",
+     "depart": {
+      "rue": "Avenue de la Motte-Picquet",
+      "station": "La Motte-Picquet - Grenelle (métro, 60 m)",
+      "p": [
+       2.29856,
+       48.84954
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue de Suffren",
+      "station": "Ségur (métro, 20 m)",
+      "p": [
+       2.30734,
+       48.84714
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-65.gpx"
+    },
+    {
+     "n": 66,
+     "km": 20.1,
+     "km_refait": 4.2,
+     "duree": "4 h 01",
+     "depart": {
+      "rue": "Rue Pérignon",
+      "station": "Ségur (métro, 20 m)",
+      "p": [
+       2.30734,
+       48.84714
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard du Général Martial Valin",
+      "station": "Pont du Garigliano (tram, 40 m)",
+      "p": [
+       2.27065,
+       48.83819
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-66.gpx"
+    },
+    {
+     "n": 67,
+     "km": 20.2,
+     "km_refait": 5.9,
+     "duree": "4 h 02",
+     "depart": {
+      "rue": "Boulevard du Général Martial Valin",
+      "station": "Pont du Garigliano (tram, 40 m)",
+      "p": [
+       2.27065,
+       48.83819
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard Pasteur",
+      "station": "Pasteur (métro, 20 m)",
+      "p": [
+       2.31238,
+       48.84287
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-67.gpx"
+    },
+    {
+     "n": 68,
+     "km": 20.1,
+     "km_refait": 3.0,
+     "duree": "4 h 01",
+     "depart": {
+      "rue": "Boulevard Pasteur",
+      "station": "Pasteur (métro, 20 m)",
+      "p": [
+       2.31238,
+       48.84287
+      ]
+     },
+     "arrivee": {
+      "rue": "Place de la Porte de Versailles",
+      "station": "Porte de Versailles (métro, 30 m)",
+      "p": [
+       2.28764,
+       48.83229
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-68.gpx"
+    },
+    {
+     "n": 69,
+     "km": 21.0,
+     "km_refait": 3.8,
+     "duree": "4 h 12",
+     "depart": {
+      "rue": "Place de la Porte de Versailles",
+      "station": "Porte de Versailles (métro, 30 m)",
+      "p": [
+       2.28764,
+       48.83229
+      ]
+     },
+     "arrivee": {
+      "rue": "Place Étienne Pernet",
+      "station": "Félix Faure (métro, 10 m)",
+      "p": [
+       2.29183,
+       48.84272
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-69.gpx"
+    },
+    {
+     "n": 70,
+     "km": 20.0,
+     "km_refait": 3.5,
+     "duree": "4 h 01",
+     "depart": {
+      "rue": "Place Étienne Pernet",
+      "station": "Félix Faure (métro, 10 m)",
+      "p": [
+       2.29183,
+       48.84272
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue du Docteur Germain Sée",
+      "station": "Avenue du Président Kennedy - Maison de Radio-France (gare, 60 m)",
+      "p": [
+       2.28005,
+       48.85372
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-70.gpx"
+    },
+    {
+     "n": 71,
+     "km": 19.6,
+     "km_refait": 2.6,
+     "duree": "3 h 55",
+     "depart": {
+      "rue": "Avenue du Général Mangin",
+      "station": "Avenue du Président Kennedy - Maison de Radio-France (gare, 60 m)",
+      "p": [
+       2.28005,
+       48.85372
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue de Suffren",
+      "station": "Sèvres-Lecourbe (métro, 30 m)",
+      "p": [
+       2.30946,
+       48.84583
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-71.gpx"
+    },
+    {
+     "n": 72,
+     "km": 19.1,
+     "km_refait": 3.4,
+     "duree": "3 h 49",
+     "depart": {
+      "rue": "Rue Barthélemy",
+      "station": "Sèvres-Lecourbe (métro, 30 m)",
+      "p": [
+       2.30946,
+       48.84583
+      ]
+     },
+     "arrivee": {
+      "rue": "Quai Valéry Giscard d'Estaing",
+      "station": "Musée d'Orsay (gare, 40 m)",
+      "p": [
+       2.32537,
+       48.86077
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-72.gpx"
+    },
+    {
+     "n": 73,
+     "km": 20.0,
+     "km_refait": 3.0,
+     "duree": "4 h 00",
+     "depart": {
+      "rue": "Quai Valéry Giscard d'Estaing",
+      "station": "Musée d'Orsay (gare, 40 m)",
+      "p": [
+       2.32537,
+       48.86077
+      ]
+     },
+     "arrivee": {
+      "rue": "Place de la Résistance",
+      "station": "Pont de l'Alma (gare, 120 m)",
+      "p": [
+       2.30151,
+       48.86222
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-73.gpx"
+    },
+    {
+     "n": 74,
+     "km": 20.5,
+     "km_refait": 2.6,
+     "duree": "4 h 06",
+     "depart": {
+      "rue": "Place de la Résistance",
+      "station": "Pont de l'Alma (gare, 120 m)",
+      "p": [
+       2.30151,
+       48.86222
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Georges Mandel",
+      "station": "Rue de la Pompe (métro, 50 m)",
+      "p": [
+       2.27874,
+       48.8638
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-74.gpx"
+    },
+    {
+     "n": 75,
+     "km": 20.0,
+     "km_refait": 4.8,
+     "duree": "4 h 00",
+     "depart": {
+      "rue": "Avenue Georges Mandel",
+      "station": "Rue de la Pompe (métro, 50 m)",
+      "p": [
+       2.27874,
+       48.8638
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Ruhmkorff",
+      "station": "Anny Flore (tram, 20 m)",
+      "p": [
+       2.28568,
+       48.88129
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-75.gpx"
+    },
+    {
+     "n": 76,
+     "km": 20.2,
+     "km_refait": 5.0,
+     "duree": "4 h 02",
+     "depart": {
+      "rue": "Place Anny Flore",
+      "station": "Anny Flore (tram, 20 m)",
+      "p": [
+       2.28568,
+       48.88129
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Paul Adam",
+      "station": "Square Sainte-Odile (tram, 40 m)",
+      "p": [
+       2.29593,
+       48.8878
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-76.gpx"
+    },
+    {
+     "n": 77,
+     "km": 20.0,
+     "km_refait": 3.3,
+     "duree": "4 h 00",
+     "depart": {
+      "rue": "Avenue Paul Adam",
+      "station": "Square Sainte-Odile (tram, 40 m)",
+      "p": [
+       2.29593,
+       48.8878
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Cardinet",
+      "station": "Pont Cardinet (gare, 90 m)",
+      "p": [
+       2.3139,
+       48.88723
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-77.gpx"
+    },
+    {
+     "n": 78,
+     "km": 19.8,
+     "km_refait": 3.1,
+     "duree": "3 h 58",
+     "depart": {
+      "rue": "Rue Cardinet",
+      "station": "Pont Cardinet (gare, 90 m)",
+      "p": [
+       2.3139,
+       48.88723
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Cardinet",
+      "station": "Pont Cardinet (métro, 70 m)",
+      "p": [
+       2.3161,
+       48.88911
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-78.gpx"
+    },
+    {
+     "n": 79,
+     "km": 19.4,
+     "km_refait": 3.2,
+     "duree": "3 h 53",
+     "depart": {
+      "rue": "Rue Cardinet",
+      "station": "Pont Cardinet (métro, 70 m)",
+      "p": [
+       2.3161,
+       48.88911
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue des Épinettes",
+      "station": "Épinettes-Pouchet (tram, 50 m)",
+      "p": [
+       2.32434,
+       48.89731
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-79.gpx"
+    },
+    {
+     "n": 80,
+     "km": 20.8,
+     "km_refait": 3.6,
+     "duree": "4 h 10",
+     "depart": {
+      "rue": "Rue Jacques Kellner",
+      "station": "Épinettes-Pouchet (tram, 50 m)",
+      "p": [
+       2.32434,
+       48.89731
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Frédéric Schneider",
+      "station": "Angélique Compoint - Porte de Montmartre (tram, 30 m)",
+      "p": [
+       2.33836,
+       48.89813
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-80.gpx"
+    },
+    {
+     "n": 81,
+     "km": 20.3,
+     "km_refait": 4.8,
+     "duree": "4 h 04",
+     "depart": {
+      "rue": "Rue Frédéric Schneider",
+      "station": "Angélique Compoint - Porte de Montmartre (tram, 30 m)",
+      "p": [
+       2.33836,
+       48.89813
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Fragonard",
+      "station": "Porte de Clichy (gare, 20 m)",
+      "p": [
+       2.31507,
+       48.89427
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-81.gpx"
+    },
+    {
+     "n": 82,
+     "km": 19.6,
+     "km_refait": 3.2,
+     "duree": "3 h 55",
+     "depart": {
+      "rue": "Rue Guttin",
+      "station": "Porte de Clichy (gare, 20 m)",
+      "p": [
+       2.31507,
+       48.89427
+      ]
+     },
+     "arrivee": {
+      "rue": "Place Charles de Gaulle",
+      "station": "Charles de Gaulle — Étoile (métro, 0 m)",
+      "p": [
+       2.29552,
+       48.87444
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-82.gpx"
+    },
+    {
+     "n": 83,
+     "km": 19.7,
+     "km_refait": 3.3,
+     "duree": "3 h 56",
+     "depart": {
+      "rue": "Place Charles de Gaulle",
+      "station": "Charles de Gaulle — Étoile (métro, 0 m)",
+      "p": [
+       2.29552,
+       48.87444
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Victor Hugo",
+      "station": "Victor Hugo (métro, 30 m)",
+      "p": [
+       2.28566,
+       48.8698
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-83.gpx"
+    },
+    {
+     "n": 84,
+     "km": 18.0,
+     "km_refait": 2.9,
+     "duree": "3 h 36",
+     "depart": {
+      "rue": "Place Victor Hugo",
+      "station": "Victor Hugo (métro, 30 m)",
+      "p": [
+       2.28566,
+       48.8698
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue des Champs Élysées",
+      "station": "George V (métro, 50 m)",
+      "p": [
+       2.30104,
+       48.87187
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-84.gpx"
+    },
+    {
+     "n": 85,
+     "km": 19.6,
+     "km_refait": 3.1,
+     "duree": "3 h 55",
+     "depart": {
+      "rue": "Rue Washington",
+      "station": "George V (métro, 50 m)",
+      "p": [
+       2.30104,
+       48.87187
+      ]
+     },
+     "arrivee": {
+      "rue": "Place d'Iéna",
+      "station": "Iéna (métro, 20 m)",
+      "p": [
+       2.29358,
+       48.86448
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-85.gpx"
+    },
+    {
+     "n": 86,
+     "km": 18.2,
+     "km_refait": 2.6,
+     "duree": "3 h 38",
+     "depart": {
+      "rue": "Place d'Iéna",
+      "station": "Iéna (métro, 20 m)",
+      "p": [
+       2.29358,
+       48.86448
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue du Faubourg Saint-Honoré",
+      "station": "Saint-Philippe du Roule (métro, 90 m)",
+      "p": [
+       2.31002,
+       48.87308
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-86.gpx"
+    },
+    {
+     "n": 87,
+     "km": 19.3,
+     "km_refait": 3.0,
+     "duree": "3 h 52",
+     "depart": {
+      "rue": "Avenue Myron Herrick",
+      "station": "Saint-Philippe du Roule (métro, 90 m)",
+      "p": [
+       2.31002,
+       48.87308
+      ]
+     },
+     "arrivee": {
+      "rue": "Place d'Estienne d'Orves",
+      "station": "Trinité d'Estienne d'Orves (métro, 20 m)",
+      "p": [
+       2.33241,
+       48.87636
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-87.gpx"
+    },
+    {
+     "n": 88,
+     "km": 21.2,
+     "km_refait": 3.7,
+     "duree": "4 h 14",
+     "depart": {
+      "rue": "Place d'Estienne d'Orves",
+      "station": "Trinité d'Estienne d'Orves (métro, 20 m)",
+      "p": [
+       2.33241,
+       48.87636
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Étienne Marcel",
+      "station": "Étienne Marcel (métro, 0 m)",
+      "p": [
+       2.34904,
+       48.86386
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-88.gpx"
+    },
+    {
+     "n": 89,
+     "km": 22.0,
+     "km_refait": 4.3,
+     "duree": "4 h 24",
+     "depart": {
+      "rue": "Rue de Turbigo",
+      "station": "Étienne Marcel (métro, 0 m)",
+      "p": [
+       2.34904,
+       48.86386
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard Marguerite de Rochechouart",
+      "station": "Anvers (métro, 20 m)",
+      "p": [
+       2.34445,
+       48.88293
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-89.gpx"
+    },
+    {
+     "n": 90,
+     "km": 18.4,
+     "km_refait": 1.9,
+     "duree": "3 h 41",
+     "depart": {
+      "rue": "Boulevard Marguerite de Rochechouart",
+      "station": "Anvers (métro, 20 m)",
+      "p": [
+       2.34445,
+       48.88293
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard de Clichy",
+      "station": "Pigalle (métro, 20 m)",
+      "p": [
+       2.33791,
+       48.88242
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-90.gpx"
+    },
+    {
+     "n": 91,
+     "km": 19.4,
+     "km_refait": 3.0,
+     "duree": "3 h 53",
+     "depart": {
+      "rue": "Boulevard de Clichy",
+      "station": "Pigalle (métro, 20 m)",
+      "p": [
+       2.33791,
+       48.88242
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de Madrid",
+      "station": "Europe (métro, 0 m)",
+      "p": [
+       2.32224,
+       48.87876
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-91.gpx"
+    },
+    {
+     "n": 92,
+     "km": 19.9,
+     "km_refait": 1.9,
+     "duree": "3 h 58",
+     "depart": {
+      "rue": "Rue de Madrid",
+      "station": "Europe (métro, 0 m)",
+      "p": [
+       2.32224,
+       48.87876
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue du Faubourg Montmartre",
+      "station": "Grands Boulevards (métro, 30 m)",
+      "p": [
+       2.34307,
+       48.87149
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-92.gpx"
+    },
+    {
+     "n": 93,
+     "km": 19.6,
+     "km_refait": 2.5,
+     "duree": "3 h 55",
+     "depart": {
+      "rue": "Boulevard Poissonnière",
+      "station": "Grands Boulevards (métro, 30 m)",
+      "p": [
+       2.34307,
+       48.87149
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de Crussol",
+      "station": "Oberkampf (métro, 50 m)",
+      "p": [
+       2.36937,
+       48.86452
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-93.gpx"
+    },
+    {
+     "n": 94,
+     "km": 11.6,
+     "km_refait": 1.2,
+     "duree": "2 h 19",
+     "depart": {
+      "rue": "Rue de Crussol",
+      "station": "Oberkampf (métro, 50 m)",
+      "p": [
+       2.36937,
+       48.86452
+      ]
+     },
+     "arrivee": {
+      "rue": "Parvis Notre-Dame Place Jean-Paul II",
+      "station": "Saint-Michel Notre-Dame (gare, 220 m)",
+      "p": [
+       2.34874,
+       48.85309
+      ]
+     },
+     "gpx": "paris/gpx/paris-etape-94.gpx"
+    }
+   ]
+  },
+  {
+   "cle": "lyon",
+   "nom": "Lyon",
+   "km_total": 818,
+   "km_rues": 668,
+   "km_refait": 149,
+   "nb_etapes": 41,
+   "perimetre": "Voies publiques des 9 arrondissements de Lyon, sans autoroutes, périphérique ni tunnels.",
+   "source": "Métropole de Lyon, voies (data.grandlyon.com), données du 13/11/2026",
+   "complet": "lyon/gpx/lyon-complet.gpx",
+   "etapes": [
+    {
+     "n": 1,
+     "km": 20.7,
+     "km_refait": 4.5,
+     "duree": "4 h 08",
+     "depart": {
+      "rue": "Place Bellecour",
+      "station": "Bellecour (métro, 120 m)",
+      "p": [
+       4.83249,
+       45.75838
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Berthelot",
+      "station": "Centre Berthelot - Sciences Po Lyon (tram, 40 m)",
+      "p": [
+       4.83679,
+       45.7468
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-01.gpx"
+    },
+    {
+     "n": 2,
+     "km": 18.1,
+     "km_refait": 3.1,
+     "duree": "3 h 37",
+     "depart": {
+      "rue": "Rue de Marseille",
+      "station": "Centre Berthelot - Sciences Po Lyon (tram, 40 m)",
+      "p": [
+       4.83679,
+       45.7468
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Voltaire",
+      "station": "Palais de Justice - Mairie du 3e (tram, 10 m)",
+      "p": [
+       4.84829,
+       45.76041
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-02.gpx"
+    },
+    {
+     "n": 3,
+     "km": 16.6,
+     "km_refait": 3.2,
+     "duree": "3 h 20",
+     "depart": {
+      "rue": "Rue Servient",
+      "station": "Palais de Justice - Mairie du 3e (tram, 10 m)",
+      "p": [
+       4.84829,
+       45.76041
+      ]
+     },
+     "arrivee": {
+      "rue": "Cours Franklin Roosevelt",
+      "station": "Foch (métro, 140 m)",
+      "p": [
+       4.84603,
+       45.76905
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-03.gpx"
+    },
+    {
+     "n": 4,
+     "km": 24.0,
+     "km_refait": 4.1,
+     "duree": "4 h 48",
+     "depart": {
+      "rue": "Rue de Créqui",
+      "station": "Foch (métro, 140 m)",
+      "p": [
+       4.84603,
+       45.76905
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Sully",
+      "station": "Foch (métro, 320 m)",
+      "p": [
+       4.84691,
+       45.77096
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-04.gpx"
+    },
+    {
+     "n": 5,
+     "km": 19.2,
+     "km_refait": 4.1,
+     "duree": "3 h 50",
+     "depart": {
+      "rue": "Rue Sully",
+      "station": "Foch (métro, 320 m)",
+      "p": [
+       4.84691,
+       45.77096
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue des Tables Claudiennes",
+      "station": "Croix-Paquet (métro, 30 m)",
+      "p": [
+       4.83587,
+       45.77121
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-05.gpx"
+    },
+    {
+     "n": 6,
+     "km": 20.8,
+     "km_refait": 2.3,
+     "duree": "4 h 09",
+     "depart": {
+      "rue": "Montée Saint Sébastien",
+      "station": "Croix-Paquet (métro, 30 m)",
+      "p": [
+       4.83587,
+       45.77121
+      ]
+     },
+     "arrivee": {
+      "rue": "Place Jules Ferry",
+      "station": "Brotteaux (métro, 30 m)",
+      "p": [
+       4.85952,
+       45.76692
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-06.gpx"
+    },
+    {
+     "n": 7,
+     "km": 21.3,
+     "km_refait": 4.5,
+     "duree": "4 h 15",
+     "depart": {
+      "rue": "Place Jules Ferry",
+      "station": "Brotteaux (métro, 30 m)",
+      "p": [
+       4.85952,
+       45.76692
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard Pinel",
+      "station": "Hôpitaux Est - Pinel (tram, 20 m)",
+      "p": [
+       4.89658,
+       45.74743
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-07.gpx"
+    },
+    {
+     "n": 8,
+     "km": 19.8,
+     "km_refait": 2.8,
+     "duree": "3 h 58",
+     "depart": {
+      "rue": "Boulevard Pinel",
+      "station": "Hôpitaux Est - Pinel (tram, 20 m)",
+      "p": [
+       4.89658,
+       45.74743
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Viala",
+      "station": "Ambroise Paré (tram, 100 m)",
+      "p": [
+       4.88519,
+       45.74133
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-08.gpx"
+    },
+    {
+     "n": 9,
+     "km": 20.4,
+     "km_refait": 3.6,
+     "duree": "4 h 05",
+     "depart": {
+      "rue": "Avenue Rockefeller",
+      "station": "Ambroise Paré (tram, 100 m)",
+      "p": [
+       4.88519,
+       45.74133
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard Edmond Michelet",
+      "station": "Mermoz - Californie (tram, 50 m)",
+      "p": [
+       4.8791,
+       45.73326
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-09.gpx"
+    },
+    {
+     "n": 10,
+     "km": 20.0,
+     "km_refait": 3.9,
+     "duree": "4 h 00",
+     "depart": {
+      "rue": "Boulevard Ambroise Paré",
+      "station": "Mermoz - Californie (tram, 50 m)",
+      "p": [
+       4.8791,
+       45.73326
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de la Rosière",
+      "station": "Villon (tram, 40 m)",
+      "p": [
+       4.86375,
+       45.73819
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-10.gpx"
+    },
+    {
+     "n": 11,
+     "km": 22.7,
+     "km_refait": 4.0,
+     "duree": "4 h 32",
+     "depart": {
+      "rue": "Avenue Berthelot",
+      "station": "Villon (tram, 40 m)",
+      "p": [
+       4.86375,
+       45.73819
+      ]
+     },
+     "arrivee": {
+      "rue": "Cours Gambetta",
+      "station": "Garibaldi (métro, 50 m)",
+      "p": [
+       4.85284,
+       45.7519
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-11.gpx"
+    },
+    {
+     "n": 12,
+     "km": 19.0,
+     "km_refait": 2.1,
+     "duree": "3 h 48",
+     "depart": {
+      "rue": "Cours Gambetta",
+      "station": "Garibaldi (métro, 50 m)",
+      "p": [
+       4.85284,
+       45.7519
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard des Etats-Unis",
+      "station": "Beauvisage - C.I.S.L. (tram, 10 m)",
+      "p": [
+       4.86712,
+       45.72983
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-12.gpx"
+    },
+    {
+     "n": 13,
+     "km": 20.1,
+     "km_refait": 4.2,
+     "duree": "4 h 01",
+     "depart": {
+      "rue": "Place du 8 Mai 1945",
+      "station": "Beauvisage - C.I.S.L. (tram, 10 m)",
+      "p": [
+       4.86712,
+       45.72983
+      ]
+     },
+     "arrivee": {
+      "rue": "Espace Henry Vallée",
+      "station": "Challemel Lacour - Artillerie (tram, 160 m)",
+      "p": [
+       4.84417,
+       45.72829
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-13.gpx"
+    },
+    {
+     "n": 14,
+     "km": 19.6,
+     "km_refait": 4.5,
+     "duree": "3 h 56",
+     "depart": {
+      "rue": "Boulevard du Parc d'Artillerie",
+      "station": "Challemel Lacour - Artillerie (tram, 160 m)",
+      "p": [
+       4.84417,
+       45.72829
+      ]
+     },
+     "arrivee": {
+      "rue": "Cours Charlemagne",
+      "station": "Place des Archives (tram, 50 m)",
+      "p": [
+       4.82427,
+       45.74672
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-14.gpx"
+    },
+    {
+     "n": 15,
+     "km": 18.5,
+     "km_refait": 3.4,
+     "duree": "3 h 42",
+     "depart": {
+      "rue": "Cours Suchet",
+      "station": "Place des Archives (tram, 50 m)",
+      "p": [
+       4.82427,
+       45.74672
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Antonin Perrin",
+      "station": "Halle Tony Garnier (tram, 10 m)",
+      "p": [
+       4.82284,
+       45.73178
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-15.gpx"
+    },
+    {
+     "n": 16,
+     "km": 20.8,
+     "km_refait": 3.5,
+     "duree": "4 h 09",
+     "depart": {
+      "rue": "Rue Antonin Perrin",
+      "station": "Halle Tony Garnier (tram, 10 m)",
+      "p": [
+       4.82284,
+       45.73178
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Victor Lagrange",
+      "station": "Lyon Jean Macé (gare, 150 m)",
+      "p": [
+       4.84101,
+       45.74375
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-16.gpx"
+    },
+    {
+     "n": 17,
+     "km": 17.1,
+     "km_refait": 2.8,
+     "duree": "3 h 25",
+     "depart": {
+      "rue": "Avenue Jean Jaurès",
+      "station": "Lyon Jean Macé (gare, 150 m)",
+      "p": [
+       4.84101,
+       45.74375
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Debourg",
+      "station": "Debourg (tram, 80 m)",
+      "p": [
+       4.83364,
+       45.73136
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-17.gpx"
+    },
+    {
+     "n": 18,
+     "km": 21.7,
+     "km_refait": 4.8,
+     "duree": "4 h 20",
+     "depart": {
+      "rue": "Avenue Jean Jaurès",
+      "station": "Debourg (tram, 80 m)",
+      "p": [
+       4.83364,
+       45.73136
+      ]
+     },
+     "arrivee": {
+      "rue": "Place du 11 Novembre 1918",
+      "station": "Bachut - Mairie du 8e (tram, 30 m)",
+      "p": [
+       4.86854,
+       45.73665
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-18.gpx"
+    },
+    {
+     "n": 19,
+     "km": 19.6,
+     "km_refait": 2.2,
+     "duree": "3 h 55",
+     "depart": {
+      "rue": "Avenue Berthelot",
+      "station": "Bachut - Mairie du 8e (tram, 30 m)",
+      "p": [
+       4.86854,
+       45.73665
+      ]
+     },
+     "arrivee": {
+      "rue": "Cours Albert Thomas",
+      "station": "Monplaisir - Lumière (métro, 20 m)",
+      "p": [
+       4.87125,
+       45.74556
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-19.gpx"
+    },
+    {
+     "n": 20,
+     "km": 16.7,
+     "km_refait": 2.0,
+     "duree": "3 h 20",
+     "depart": {
+      "rue": "Cours Albert Thomas",
+      "station": "Monplaisir - Lumière (métro, 20 m)",
+      "p": [
+       4.87125,
+       45.74556
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue du Dauphiné",
+      "station": "Dauphiné - Lacassagne (tram, 40 m)",
+      "p": [
+       4.86872,
+       45.75263
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-20.gpx"
+    },
+    {
+     "n": 21,
+     "km": 18.5,
+     "km_refait": 3.8,
+     "duree": "3 h 42",
+     "depart": {
+      "rue": "Rue du Dauphiné",
+      "station": "Dauphiné - Lacassagne (tram, 40 m)",
+      "p": [
+       4.86872,
+       45.75263
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Maurice Flandin",
+      "station": "Part-Dieu Villette Sud (tram, 70 m)",
+      "p": [
+       4.86253,
+       45.75711
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-21.gpx"
+    },
+    {
+     "n": 22,
+     "km": 20.1,
+     "km_refait": 4.0,
+     "duree": "4 h 02",
+     "depart": {
+      "rue": "Rue Paul Bert",
+      "station": "Part-Dieu Villette Sud (tram, 70 m)",
+      "p": [
+       4.86253,
+       45.75711
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de la Gaîté",
+      "station": "Collège Bellecombe (tram, 80 m)",
+      "p": [
+       4.86257,
+       45.76729
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-22.gpx"
+    },
+    {
+     "n": 23,
+     "km": 20.7,
+     "km_refait": 2.7,
+     "duree": "4 h 09",
+     "depart": {
+      "rue": "Rue Pétrequin",
+      "station": "Collège Bellecombe (tram, 80 m)",
+      "p": [
+       4.86257,
+       45.76729
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Vendôme",
+      "station": "Foch (métro, 50 m)",
+      "p": [
+       4.84501,
+       45.76881
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-23.gpx"
+    },
+    {
+     "n": 24,
+     "km": 21.6,
+     "km_refait": 2.8,
+     "duree": "4 h 19",
+     "depart": {
+      "rue": "Rue Vendôme",
+      "station": "Foch (métro, 50 m)",
+      "p": [
+       4.84501,
+       45.76881
+      ]
+     },
+     "arrivee": {
+      "rue": "Place des Cordeliers",
+      "station": "Cordeliers (métro, 80 m)",
+      "p": [
+       4.8368,
+       45.76352
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-24.gpx"
+    },
+    {
+     "n": 25,
+     "km": 20.6,
+     "km_refait": 3.6,
+     "duree": "4 h 07",
+     "depart": {
+      "rue": "Place des Cordeliers",
+      "station": "Cordeliers (métro, 80 m)",
+      "p": [
+       4.8368,
+       45.76352
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de l'Université",
+      "station": "Rue de l'Université (tram, 30 m)",
+      "p": [
+       4.83863,
+       45.75121
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-25.gpx"
+    },
+    {
+     "n": 26,
+     "km": 19.8,
+     "km_refait": 2.6,
+     "duree": "3 h 58",
+     "depart": {
+      "rue": "Rue de l'Université",
+      "station": "Rue de l'Université (tram, 30 m)",
+      "p": [
+       4.83863,
+       45.75121
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Berthelot",
+      "station": "Lyon Jean Macé (gare, 30 m)",
+      "p": [
+       4.84188,
+       45.74519
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-26.gpx"
+    },
+    {
+     "n": 27,
+     "km": 20.3,
+     "km_refait": 2.4,
+     "duree": "4 h 04",
+     "depart": {
+      "rue": "Place Jean Macé",
+      "station": "Lyon Jean Macé (gare, 30 m)",
+      "p": [
+       4.84188,
+       45.74519
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Basse Combalot",
+      "station": "Guillotière - Gabriel Péri (tram, 10 m)",
+      "p": [
+       4.84246,
+       45.75504
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-27.gpx"
+    },
+    {
+     "n": 28,
+     "km": 20.5,
+     "km_refait": 3.8,
+     "duree": "4 h 06",
+     "depart": {
+      "rue": "Place Gabriel Péri",
+      "station": "Guillotière - Gabriel Péri (tram, 10 m)",
+      "p": [
+       4.84246,
+       45.75504
+      ]
+     },
+     "arrivee": {
+      "rue": "Place des Minimes",
+      "station": "Minimes - Théâtres romains (funiculaire, 40 m)",
+      "p": [
+       4.82111,
+       45.75827
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-28.gpx"
+    },
+    {
+     "n": 29,
+     "km": 16.3,
+     "km_refait": 3.7,
+     "duree": "3 h 16",
+     "depart": {
+      "rue": "Place des Minimes",
+      "station": "Minimes - Théâtres romains (funiculaire, 40 m)",
+      "p": [
+       4.82111,
+       45.75827
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue des Granges",
+      "station": null,
+      "p": [
+       4.79803,
+       45.75397
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-29.gpx"
+    },
+    {
+     "n": 30,
+     "km": 18.0,
+     "km_refait": 3.9,
+     "duree": "3 h 36",
+     "depart": {
+      "rue": "Rue Docteur Albéric Pont",
+      "station": null,
+      "p": [
+       4.79803,
+       45.75397
+      ]
+     },
+     "arrivee": {
+      "rue": "Voie verte Champvert Trion",
+      "station": "Écully la Demi-Lune (gare, 620 m)",
+      "p": [
+       4.78672,
+       45.76378
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-30.gpx"
+    },
+    {
+     "n": 31,
+     "km": 18.7,
+     "km_refait": 4.2,
+     "duree": "3 h 44",
+     "depart": {
+      "rue": "Voie verte Champvert Trion",
+      "station": "Écully la Demi-Lune (gare, 620 m)",
+      "p": [
+       4.78672,
+       45.76378
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue des Anges",
+      "station": "Saint-Just (funiculaire, 210 m)",
+      "p": [
+       4.81353,
+       45.75706
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-31.gpx"
+    },
+    {
+     "n": 32,
+     "km": 22.9,
+     "km_refait": 4.8,
+     "duree": "4 h 35",
+     "depart": {
+      "rue": "Rue des Anges",
+      "station": "Saint-Just (funiculaire, 210 m)",
+      "p": [
+       4.81353,
+       45.75706
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de Bourgogne",
+      "station": "Lyon Vaise (gare, 170 m)",
+      "p": [
+       4.80189,
+       45.77925
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-32.gpx"
+    },
+    {
+     "n": 33,
+     "km": 19.0,
+     "km_refait": 5.3,
+     "duree": "3 h 48",
+     "depart": {
+      "rue": "Rue de la Gare",
+      "station": "Lyon Vaise (gare, 170 m)",
+      "p": [
+       4.80189,
+       45.77925
+      ]
+     },
+     "arrivee": {
+      "rue": "Place Gisèle Halimi",
+      "station": null,
+      "p": [
+       4.79646,
+       45.78582
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-33.gpx"
+    },
+    {
+     "n": 34,
+     "km": 21.9,
+     "km_refait": 6.4,
+     "duree": "4 h 23",
+     "depart": {
+      "rue": "Place Gisèle Halimi",
+      "station": null,
+      "p": [
+       4.79646,
+       45.78582
+      ]
+     },
+     "arrivee": {
+      "rue": "Montée de la Sauvagère",
+      "station": null,
+      "p": [
+       4.82465,
+       45.7964
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-34.gpx"
+    },
+    {
+     "n": 35,
+     "km": 21.2,
+     "km_refait": 4.6,
+     "duree": "4 h 14",
+     "depart": {
+      "rue": "Montée de la Sauvagère",
+      "station": null,
+      "p": [
+       4.82465,
+       45.7964
+      ]
+     },
+     "arrivee": {
+      "rue": "Quai du Commerce",
+      "station": "Gare de Vaise - Gérard Collomb (métro, 350 m)",
+      "p": [
+       4.80905,
+       45.7805
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-35.gpx"
+    },
+    {
+     "n": 36,
+     "km": 20.3,
+     "km_refait": 3.9,
+     "duree": "4 h 03",
+     "depart": {
+      "rue": "Quai du Commerce",
+      "station": "Gare de Vaise - Gérard Collomb (métro, 350 m)",
+      "p": [
+       4.80905,
+       45.7805
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Sergent Michel Berthet",
+      "station": "Valmy (métro, 40 m)",
+      "p": [
+       4.80539,
+       45.77427
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-36.gpx"
+    },
+    {
+     "n": 37,
+     "km": 23.7,
+     "km_refait": 4.7,
+     "duree": "4 h 45",
+     "depart": {
+      "rue": "Rue du Bourbonnais",
+      "station": "Valmy (métro, 40 m)",
+      "p": [
+       4.80539,
+       45.77427
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard de la Croix-Rousse",
+      "station": "Croix-Rousse (métro, 80 m)",
+      "p": [
+       4.83085,
+       45.77429
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-37.gpx"
+    },
+    {
+     "n": 38,
+     "km": 19.8,
+     "km_refait": 4.2,
+     "duree": "3 h 58",
+     "depart": {
+      "rue": "Boulevard de la Croix-Rousse",
+      "station": "Croix-Rousse (métro, 80 m)",
+      "p": [
+       4.83085,
+       45.77429
+      ]
+     },
+     "arrivee": {
+      "rue": "Quai Saint Vincent",
+      "station": "Lyon-Saint-Paul (gare, 230 m)",
+      "p": [
+       4.82768,
+       45.76807
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-38.gpx"
+    },
+    {
+     "n": 39,
+     "km": 17.7,
+     "km_refait": 2.5,
+     "duree": "3 h 33",
+     "depart": {
+      "rue": "Quai Saint Vincent",
+      "station": "Lyon-Saint-Paul (gare, 230 m)",
+      "p": [
+       4.82768,
+       45.76807
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard des Canuts",
+      "station": "Hénon (métro, 10 m)",
+      "p": [
+       4.82746,
+       45.77955
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-39.gpx"
+    },
+    {
+     "n": 40,
+     "km": 16.8,
+     "km_refait": 2.4,
+     "duree": "3 h 22",
+     "depart": {
+      "rue": "Rue Jacques-Louis Hénon",
+      "station": "Hénon (métro, 10 m)",
+      "p": [
+       4.82746,
+       45.77955
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Roger Radisson",
+      "station": "Fourvière (funiculaire, 30 m)",
+      "p": [
+       4.82148,
+       45.76208
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-40.gpx"
+    },
+    {
+     "n": 41,
+     "km": 22.6,
+     "km_refait": 3.0,
+     "duree": "4 h 31",
+     "depart": {
+      "rue": "Place de Fourvière",
+      "station": "Fourvière (funiculaire, 30 m)",
+      "p": [
+       4.82148,
+       45.76208
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Emile Zola",
+      "station": "Bellecour (métro, 120 m)",
+      "p": [
+       4.83249,
+       45.75838
+      ]
+     },
+     "gpx": "lyon/gpx/lyon-etape-41.gpx"
+    }
+   ]
+  }
+ ]
+}

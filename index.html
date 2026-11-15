@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toutes les rues à pied</title>
+<meta name="description" content="Passer dans toutes les rues de Paris ou de Lyon à pied : le parcours calculé dans les vidéos de @attends.je.texplique, découpé en étapes d'environ 4 h, en fichiers GPX.">
+<meta property="og:title" content="Toutes les rues à pied — les parcours GPX">
+<meta property="og:description" content="Le parcours le plus court pour passer dans toutes les rues, découpé en étapes de 4 h. Gratuit, en GPX.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#06101d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2306101d'/%3E%3Cpath d='M7 24 L12 9 L19 20 L25 8' stroke='%232f6bff' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='25' cy='8' r='2.6' fill='%23ff9640'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{
+  --fond:#06101d; --carte:#0c1a2e; --carte2:#11233d; --ligne:#1d3352;
+  --texte:#eef3fb; --doux:#9fb0c8; --bleu:#2f6bff; --bleu-clair:#6d97ff; --orange:#ff9640;
+  --rayon:14px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--fond);color:var(--texte);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+a{color:var(--bleu-clair)}
+.page{max-width:1120px;margin:0 auto;padding:0 16px 56px}
+header{padding:36px 0 20px}
+.compte{display:inline-flex;align-items:center;gap:8px;color:var(--doux);font-weight:600;font-size:14px;text-decoration:none}
+.compte b{color:var(--texte)}
+h1{font-size:clamp(30px,6vw,52px);line-height:1.05;margin:14px 0 12px;letter-spacing:-.02em}
+h1 em{font-style:normal;color:var(--orange)}
+.chapo{color:var(--doux);font-size:clamp(16px,2.2vw,19px);max-width:720px;margin:0}
+.villes{display:flex;gap:10px;flex-wrap:wrap;margin:26px 0 16px}
+.ville{appearance:none;border:1px solid var(--ligne);background:var(--carte);color:var(--texte);border-radius:999px;padding:10px 18px;font:inherit;font-weight:700;cursor:pointer;display:flex;gap:10px;align-items:baseline}
+.ville small{color:var(--doux);font-weight:500}
+.ville[aria-pressed=true]{background:var(--bleu);border-color:var(--bleu)}
+.ville[aria-pressed=true] small{color:#dfe8ff}
+.chiffres{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px}
+.chiffre{background:var(--carte);border:1px solid var(--ligne);border-radius:var(--rayon);padding:12px 14px}
+.chiffre b{display:block;font-size:22px;font-variant-numeric:tabular-nums}
+.chiffre span{color:var(--doux);font-size:13px}
+.outil{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:14px;align-items:start}
+#carte{height:640px;border-radius:var(--rayon);border:1px solid var(--ligne);background:#0a1626}
+.panneau{background:var(--carte);border:1px solid var(--ligne);border-radius:var(--rayon);display:flex;flex-direction:column;height:640px;overflow:hidden}
+.choisie{padding:16px;border-bottom:1px solid var(--ligne);background:var(--carte2)}
+.choisie h2{margin:0 0 4px;font-size:20px}
+.choisie .meta{color:var(--doux);font-size:14px;margin-bottom:10px}
+.trajet{font-size:14px;margin:0 0 12px;padding:0;list-style:none}
+.trajet li{display:flex;gap:8px;margin:4px 0}
+.trajet .pt{flex:0 0 10px;height:10px;border-radius:50%;margin-top:6px}
+.boutons{display:flex;gap:8px;flex-wrap:wrap}
+.btn{appearance:none;border:0;border-radius:10px;padding:10px 14px;font:inherit;font-weight:700;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.btn.principal{background:var(--orange);color:#1a0d00}
+.btn.second{background:transparent;color:var(--texte);border:1px solid var(--ligne)}
+.btn:focus-visible,.ville:focus-visible,.etape:focus-visible{outline:3px solid var(--bleu-clair);outline-offset:2px}
+.liste{overflow-y:auto;flex:1;padding:6px}
+.etape{width:100%;text-align:left;appearance:none;border:0;background:transparent;color:var(--texte);font:inherit;border-radius:10px;padding:9px 10px;display:grid;grid-template-columns:44px 1fr auto;gap:8px;align-items:center;cursor:pointer}
+.etape:hover{background:var(--carte2)}
+.etape[aria-current=true]{background:#183563}
+.etape .num{font-weight:800;color:var(--bleu-clair);font-variant-numeric:tabular-nums}
+.etape .de{font-size:13px;color:var(--doux);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.etape .km{font-size:13px;font-variant-numeric:tabular-nums;color:var(--doux);white-space:nowrap}
+.legende{display:flex;gap:16px;flex-wrap:wrap;color:var(--doux);font-size:13px;margin:10px 2px 0}
+.legende i{display:inline-block;width:22px;height:4px;border-radius:2px;vertical-align:middle;margin-right:6px}
+section{margin-top:44px}
+section h2{font-size:24px;margin:0 0 14px}
+.grille{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.bloc{background:var(--carte);border:1px solid var(--ligne);border-radius:var(--rayon);padding:16px 18px}
+.bloc h3{margin:0 0 6px;font-size:17px}
+.bloc p,.bloc ul{margin:0;color:var(--doux);font-size:15px}
+.bloc ul{padding-left:18px}
+.appel{background:linear-gradient(135deg,#0f2a5c,#0c1a2e 70%);border:1px solid #234a8f;border-radius:var(--rayon);padding:22px;display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap}
+.appel p{margin:0;font-size:18px;max-width:640px}
+.appel strong{color:var(--orange)}
+.reseaux{display:flex;gap:8px;flex-wrap:wrap}
+footer{margin-top:48px;color:var(--doux);font-size:13px;border-top:1px solid var(--ligne);padding-top:18px}
+footer p{margin:6px 0}
+.leaflet-container{font:inherit;background:#0a1626}
+.tuiles-sombres{filter:invert(1) hue-rotate(185deg) brightness(.78) saturate(.55) contrast(.9)}
+.leaflet-control-attribution{background:rgba(6,16,29,.8)!important;color:var(--doux)!important}
+.leaflet-control-attribution a{color:var(--bleu-clair)!important}
+.leaflet-bar a{background:var(--carte)!important;color:var(--texte)!important;border-color:var(--ligne)!important}
+.chargement{display:grid;place-items:center;height:100%;color:var(--doux)}
+@media (max-width:900px){
+  .outil{grid-template-columns:1fr}
+  #carte{height:56vh;min-height:340px}
+  .panneau{height:auto;max-height:none}
+  .liste{max-height:420px}
+  .grille{grid-template-columns:1fr}
+  .chiffres{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <a class="compte" href="https://www.instagram.com/attends.je.texplique/" rel="noopener">par <b>@attends.je.texplique</b></a>
+    <h1>Toutes les rues, <em>à pied</em>.</h1>
+    <p class="chapo">Le parcours le plus court pour passer dans chaque rue de la ville, celui calculé dans nos vidéos. Découpé en étapes d'environ 4 h, qui démarrent et finissent près d'une station. Choisis ta ville, télécharge l'étape, marche.</p>
+  </header>
+
+  <div class="villes" id="villes" role="group" aria-label="Choisir une ville"></div>
+  <div class="chiffres" id="chiffres"></div>
+
+  <div class="outil">
+    <div id="carte" role="region" aria-label="Carte du parcours"><div class="chargement">Chargement de la carte…</div></div>
+    <div class="panneau">
+      <div class="choisie" id="choisie" aria-live="polite"></div>
+      <div class="liste" id="liste" role="list" aria-label="Étapes"></div>
+    </div>
+  </div>
+  <div class="legende">
+    <span><i style="background:var(--bleu)"></i>Étape choisie, rues à découvrir</span>
+    <span><i style="background:var(--orange)"></i>Rues déjà faites, à refaire pour enchaîner</span>
+    <span><i style="background:#3a5a8a"></i>Le reste du parcours</span>
+  </div>
+
+  <section>
+    <h2>Comment ça marche</h2>
+    <div class="grille">
+      <div class="bloc"><h3>1. Une seule boucle</h3><p>Le parcours passe au moins une fois dans chaque rue et revient à son point de départ. Chaque étape repart exactement là où la précédente s'arrête.</p></div>
+      <div class="bloc"><h3>2. Des rues à refaire</h3><p>Impossible de passer une seule fois dans chaque rue : la plupart des carrefours ont un nombre impair de rues. Le calcul choisit les rues à refaire pour que le détour soit le plus court possible.</p></div>
+      <div class="bloc"><h3>3. Dans ton appli</h3><p>Le fichier GPX s'ouvre dans la plupart des applis de marche, de course ou de rando (Komoot, Garmin Connect, OsmAnd…) et dans beaucoup de montres GPS.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>À savoir avant de partir</h2>
+    <div class="grille">
+      <div class="bloc"><h3>Sécurité</h3><p>Certaines étapes longent de grands axes. Reste sur le trottoir, traverse aux passages piétons, et adapte le trajet si un passage te semble dangereux.</p></div>
+      <div class="bloc"><h3>Sur le terrain</h3><p>Les rues viennent des données officielles de la ville, à la date indiquée plus bas. Un chantier, une grille fermée ou une rue devenue privée peuvent t'obliger à faire un petit détour.</p></div>
+      <div class="bloc"><h3>Les durées</h3><p>Calculées à 5 km/h, sans pause ni attente aux feux. Compte plutôt une demi-journée par étape.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="appel">
+      <p>Tu fais une étape ? <strong>Identifie @attends.je.texplique</strong> dans ta story ou ta vidéo. Et pour la prochaine ville : propose-la en commentaire sous nos vidéos, <strong>la plus likée sera la prochaine</strong>.</p>
+      <div class="reseaux">
+        <a class="btn second" href="https://www.instagram.com/attends.je.texplique/" rel="noopener">Instagram</a>
+        <a class="btn second" href="https://www.tiktok.com/@attends.je.texplique" rel="noopener">TikTok</a>
+        <a class="btn second" href="https://www.youtube.com/@attendsjetexplique" rel="noopener">YouTube</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p id="sources"></p>
+    <p>Stations et fond de carte : © contributeurs OpenStreetMap (ODbL). Calcul : problème du facteur chinois (couplage parfait de poids minimal, puis circuit d'Euler).</p>
+    <p>Gratuit, sans inscription, sans publicité. Page mise à jour le <span id="maj"></span>.</p>
+  </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const fmt = n => n.toLocaleString('fr-FR', {maximumFractionDigits: 1});
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const COUL = {bleu:'#2f6bff', orange:'#ff9640', fond:'#3a5a8a'};
+  let D, ville, etapes = [], carteData = {}, map, coucheFond, coucheChoisie, marqueurs = [], choix = 1;
+
+  function lireHash(){
+    const m = location.hash.slice(1).split('/');
+    return {v: m[0], n: parseInt(m[1], 10)};
+  }
+
+  function initCarte(){
+    $('#carte').innerHTML = '';
+    map = L.map('carte', {zoomControl: true, attributionControl: true, preferCanvas: true});
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19, className: 'tuiles-sombres',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">contributeurs OpenStreetMap</a>'
+    }).addTo(map);
+  }
+
+  async function chargerVille(cle, n){
+    ville = D.villes.find(v => v.cle === cle) || D.villes[0];
+    etapes = ville.etapes;
+    document.querySelectorAll('.ville').forEach(b => b.setAttribute('aria-pressed', b.dataset.cle === ville.cle));
+    $('#chiffres').innerHTML = [
+      [fmt(ville.km_total) + ' km', 'la boucle complète'],
+      [fmt(ville.km_rues) + ' km', 'de rues, chacune une fois'],
+      [fmt(ville.km_refait) + ' km', 'de rues à refaire'],
+      [ville.nb_etapes, 'étapes d\'environ 4 h']
+    ].map(([b, s]) => `<div class="chiffre"><b>${b}</b><span>${s}</span></div>`).join('');
+    $('#sources').textContent = `Périmètre (${ville.nom}) : ${ville.perimetre} Données : ${ville.source}.`;
+    $('#liste').innerHTML = etapes.map(e => {
+      const de = e.depart.station ? e.depart.station.replace(/ \(.*/, '') : (e.depart.rue || '');
+      const a = e.arrivee.station ? e.arrivee.station.replace(/ \(.*/, '') : (e.arrivee.rue || '');
+      return `<button class="etape" role="listitem" data-n="${e.n}"><span class="num">${String(e.n).padStart(2,'0')}</span><span class="de">${esc(de)} → ${esc(a)}</span><span class="km">${fmt(e.km)} km</span></button>`;
+    }).join('');
+    if (!carteData[ville.cle]) {
+      carteData[ville.cle] = await fetch(ville.cle + '/carte.json').then(r => r.json());
+    }
+    if (coucheFond) map.removeLayer(coucheFond);
+    const lignes = [];
+    carteData[ville.cle].forEach(et => et.forEach(([, c]) => lignes.push(c.map(([x, y]) => [y, x]))));
+    coucheFond = L.polyline(lignes, {color: COUL.fond, weight: 1.6, opacity: .7, interactive: false}).addTo(map);
+    choisir(n && n >= 1 && n <= etapes.length ? n : 1, true);
+  }
+
+  function choisir(n, cadrer){
+    choix = n;
+    const e = etapes[n - 1];
+    history.replaceState(null, '', '#' + ville.cle + '/' + n);
+    document.querySelectorAll('.etape').forEach(b => {
+      const on = +b.dataset.n === n;
+      b.setAttribute('aria-current', on);
+      if (on && cadrer) {  // fait défiler la liste seule, jamais la page
+        const l = $('#liste'), haut = b.offsetTop - l.offsetTop;
+        if (haut < l.scrollTop || haut + b.offsetHeight > l.scrollTop + l.clientHeight) l.scrollTop = haut - l.clientHeight / 2;
+      }
+    });
+    const st = (p) => p.station ? `${esc(p.station)}` : 'pas de station tout près';
+    $('#choisie').innerHTML = `
+      <h2>${esc(ville.nom)} · étape ${n} sur ${etapes.length}</h2>
+      <div class="meta">${fmt(e.km)} km · environ ${esc(e.duree)} de marche${e.km_refait ? ` · dont ${fmt(e.km_refait)} km de rues à refaire` : ''}</div>
+      <ul class="trajet">
+        <li><span class="pt" style="background:#7dffb0"></span><span><b>Départ</b> ${esc(e.depart.rue)}<br><small style="color:var(--doux)">${st(e.depart)}</small></span></li>
+        <li><span class="pt" style="background:#ff5d73"></span><span><b>Arrivée</b> ${esc(e.arrivee.rue)}<br><small style="color:var(--doux)">${st(e.arrivee)}</small></span></li>
+      </ul>
+      <div class="boutons">
+        <a class="btn principal" href="${e.gpx}" download>Télécharger l'étape (GPX)</a>
+        <a class="btn second" href="${ville.complet}" download>Tout le parcours</a>
+        <button class="btn second" id="prec" ${n === 1 ? 'disabled' : ''} aria-label="Étape précédente">←</button>
+        <button class="btn second" id="suiv" ${n === etapes.length ? 'disabled' : ''} aria-label="Étape suivante">→</button>
+      </div>`;
+    $('#prec').onclick = () => choisir(n - 1, true);
+    $('#suiv').onclick = () => choisir(n + 1, true);
+    if (coucheChoisie) map.removeLayer(coucheChoisie);
+    marqueurs.forEach(m => map.removeLayer(m));
+    const grp = carteData[ville.cle][n - 1].map(([r, c]) => L.polyline(c.map(([x, y]) => [y, x]), {
+      color: r ? COUL.orange : COUL.bleu, weight: r ? 3.4 : 3.8, opacity: .95, interactive: false
+    }));
+    coucheChoisie = L.featureGroup(grp).addTo(map);
+    marqueurs = [
+      L.circleMarker([e.depart.p[1], e.depart.p[0]], {radius: 7, color: '#06101d', weight: 2, fillColor: '#7dffb0', fillOpacity: 1}).bindTooltip('Départ').addTo(map),
+      L.circleMarker([e.arrivee.p[1], e.arrivee.p[0]], {radius: 7, color: '#06101d', weight: 2, fillColor: '#ff5d73', fillOpacity: 1}).bindTooltip('Arrivée').addTo(map)
+    ];
+    if (cadrer) map.fitBounds(coucheChoisie.getBounds(), {padding: [24, 24]});
+  }
+
+  $('#liste').addEventListener('click', ev => {
+    const b = ev.target.closest('.etape');
+    if (b) choisir(+b.dataset.n, true);
+  });
+
+  fetch('villes.json').then(r => r.json()).then(d => {
+    D = d;
+    $('#maj').textContent = new Date(d.maj).toLocaleDateString('fr-FR', {day: 'numeric', month: 'long', year: 'numeric'});
+    $('#villes').innerHTML = d.villes.map(v => `<button class="ville" data-cle="${v.cle}" aria-pressed="false">${esc(v.nom)} <small>${fmt(v.km_total)} km · ${v.nb_etapes} étapes</small></button>`).join('');
+    document.querySelectorAll('.ville').forEach(b => b.onclick = () => chargerVille(b.dataset.cle, 1));
+    initCarte();
+    const h = lireHash();
+    chargerVille(h.v, h.n);
+  }).catch(() => { $('#carte').innerHTML = '<div class="chargement">Impossible de charger les parcours. Recharge la page.</div>'; });
+
+  window.addEventListener('hashchange', () => {
+    const h = lireHash();
+    if (!D) return;
+    if (h.v !== ville.cle) chargerVille(h.v, h.n); else if (h.n && h.n !== choix) choisir(h.n, true);
+  });
+})();
+</script>
+</body>
+</html>
