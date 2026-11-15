@@ -41,9 +41,8 @@ Nouvelle ville : ajouter une entrée dans `VILLES` (generer.py) et un fichier `d
 ## Mise en ligne
 
 Pousser sur `main` suffit : GitHub Pages republie en une à deux minutes. Les commits portent le nom de la chaîne et
-son adresse noreply GitHub (réglage local du dépôt), jamais une adresse personnelle. L'adresse du dépôt distant
-contient le pseudo (`https://attendsjetexplique@github.com/…`) : `gh` utilise ce compte même si un autre compte
-GitHub est actif sur le Mac.
+son adresse noreply GitHub (réglage local du dépôt), jamais une adresse personnelle. Si plusieurs comptes GitHub sont connectés
+sur le Mac, activer celui de la chaîne avant de pousser (`gh auth switch --user attendsjetexplique`).
 
 ## Licences (à vérifier)
 
