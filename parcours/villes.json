@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14",
+ "maj": "2026-11-15",
  "vitesse_kmh": 5.0,
  "villes": [
   {
@@ -12,6 +12,7 @@
    "perimetre": "Voies publiques de Paris, sans les bois de Boulogne et de Vincennes, le périphérique ni les souterrains.",
    "source": "Ville de Paris, filaire des voies (opendata.paris.fr), données du 08/11/2026",
    "complet": "paris/gpx/paris-complet.gpx",
+   "complet_mo": 2.1,
    "etapes": [
     {
      "n": 1,
@@ -2187,6 +2188,7 @@
    "perimetre": "Voies publiques des 9 arrondissements de Lyon, sans autoroutes, périphérique ni tunnels.",
    "source": "Métropole de Lyon, voies (data.grandlyon.com), données du 13/11/2026",
    "complet": "lyon/gpx/lyon-complet.gpx",
+   "complet_mo": 1.0,
    "etapes": [
     {
      "n": 1,

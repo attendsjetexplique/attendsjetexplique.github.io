@@ -1,7 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="@attends.je.texplique" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>Paris à pied, toutes les rues — parcours complet</name><desc>1874 km en boucle, 94 étapes. Données : Ville de Paris, filaire des voies (opendata.paris.fr), données du 08/11/2026. Calcul : @attends.je.texplique.</desc></metadata>
-<wpt lat="48.853093" lon="2.348738"><name>Départ et arrivée de la boucle</name></wpt>
+<metadata><name>Paris à pied, toutes les rues — parcours complet</name><desc>1874 km en boucle, 94 étapes : un repère marque la fin de chaque étape (km et station la plus proche). Données : Ville de Paris, filaire des voies (opendata.paris.fr), données du 08/11/2026. Calcul : @attends.je.texplique.</desc></metadata>
+<wpt lat="48.853093" lon="2.348738"><name>Km 0 — départ et arrivée de la boucle</name><desc>Parvis Notre-Dame Place Jean-Paul II · Saint-Michel Notre-Dame (gare, 220 m)</desc></wpt>
+<wpt lat="48.851497" lon="2.338247"><name>Fin étape 1/94 — km 19</name><desc>Rue Saint-Sulpice · Odéon (métro, 120 m)</desc></wpt>
+<wpt lat="48.819712" lon="2.346059"><name>Fin étape 2/94 — km 40</name><desc>Rue Cacheux · Stade Charléty (tram, 30 m)</desc></wpt>
+<wpt lat="48.831103" lon="2.344241"><name>Fin étape 3/94 — km 60</name><desc>Boulevard Auguste Blanqui · Glacière (métro, 60 m)</desc></wpt>
+<wpt lat="48.840398" lon="2.351159"><name>Fin étape 4/94 — km 78</name><desc>Place Bernard Halpern · Censier - Daubenton (métro, 60 m)</desc></wpt>
+<wpt lat="48.853611" lon="2.356361"><name>Fin étape 5/94 — km 99</name><desc>Voie Georges Pompidou · Pont Marie (métro, 30 m)</desc></wpt>
+<wpt lat="48.859088" lon="2.346450"><name>Fin étape 6/94 — km 119</name><desc>Rue de Rivoli · Châtelet (métro, 80 m)</desc></wpt>
+<wpt lat="48.866219" lon="2.352523"><name>Fin étape 7/94 — km 139</name><desc>Rue Réaumur · Réaumur - Sébastopol (métro, 10 m)</desc></wpt>
+<wpt lat="48.865763" lon="2.333584"><name>Fin étape 8/94 — km 159</name><desc>Rue des Pyramides · Pyramides (métro, 60 m)</desc></wpt>
+<wpt lat="48.867298" lon="2.363307"><name>Fin étape 9/94 — km 179</name><desc>Rue du Temple · République (métro, 50 m)</desc></wpt>
+<wpt lat="48.850585" lon="2.360030"><name>Fin étape 10/94 — km 199</name><desc>Rue Saint-Louis en l'Île · Sully - Morland (métro, 160 m)</desc></wpt>
+<wpt lat="48.852884" lon="2.368275"><name>Fin étape 11/94 — km 219</name><desc>Boulevard Henri IV · Bastille (métro, 40 m)</desc></wpt>
+<wpt lat="48.852451" lon="2.389079"><name>Fin étape 12/94 — km 239</name><desc>Rue des Boulets · Rue des Boulets (métro, 30 m)</desc></wpt>
+<wpt lat="48.858634" lon="2.409691"><name>Fin étape 13/94 — km 260</name><desc>Rue Harpignies · Marie de Miribel (tram, 10 m)</desc></wpt>
+<wpt lat="48.867113" lon="2.408241"><name>Fin étape 14/94 — km 280</name><desc>Rue Pierre Mouillard · Séverine (tram, 70 m)</desc></wpt>
+<wpt lat="48.884543" lon="2.396773"><name>Fin étape 15/94 — km 299</name><desc>Rue des Marchais · Butte du Chapeau-Rouge (tram, 50 m)</desc></wpt>
+<wpt lat="48.864416" lon="2.398051"><name>Fin étape 16/94 — km 320</name><desc>Avenue du Père Lachaise · Gambetta (métro, 60 m)</desc></wpt>
+<wpt lat="48.869995" lon="2.371032"><name>Fin étape 17/94 — km 339</name><desc>Avenue Parmentier · Goncourt (métro, 0 m)</desc></wpt>
+<wpt lat="48.873929" lon="2.385351"><name>Fin étape 18/94 — km 360</name><desc>Rue de Belleville · Pyrénées (métro, 10 m)</desc></wpt>
+<wpt lat="48.875268" lon="2.389629"><name>Fin étape 19/94 — km 378</name><desc>Rue de Belleville · Jourdain (métro, 30 m)</desc></wpt>
+<wpt lat="48.891123" lon="2.377580"><name>Fin étape 20/94 — km 398</name><desc>Rue de Joinville · Crimée (métro, 30 m)</desc></wpt>
+<wpt lat="48.892538" lon="2.344294"><name>Fin étape 21/94 — km 419</name><desc>Rue du Mont Cenis · Jules Joffrin (métro, 30 m)</desc></wpt>
+<wpt lat="48.890232" lon="2.336613"><name>Fin étape 22/94 — km 439</name><desc>Rue Lamarck · Lamarck - Caulaincourt (métro, 170 m)</desc></wpt>
+<wpt lat="48.884609" lon="2.338839"><name>Fin étape 23/94 — km 459</name><desc>Rue La Vieuville · Abbesses (métro, 30 m)</desc></wpt>
+<wpt lat="48.882934" lon="2.344453"><name>Fin étape 24/94 — km 478</name><desc>Boulevard Marguerite de Rochechouart · Anvers (métro, 20 m)</desc></wpt>
+<wpt lat="48.899920" lon="2.379749"><name>Fin étape 25/94 — km 499</name><desc>Rue Émile Bollaert · Canal Saint-Denis (tram, 140 m)</desc></wpt>
+<wpt lat="48.894703" lon="2.382217"><name>Fin étape 26/94 — km 520</name><desc>Avenue de Flandre · Corentin Cariou (métro, 10 m)</desc></wpt>
+<wpt lat="48.878857" lon="2.362425"><name>Fin étape 27/94 — km 540</name><desc>Rue du Faubourg Saint-Martin · Château Landon (métro, 10 m)</desc></wpt>
+<wpt lat="48.877180" lon="2.348955"><name>Fin étape 28/94 — km 560</name><desc>Place du 8 Novembre 1942 · Poissonnière (métro, 20 m)</desc></wpt>
+<wpt lat="48.860971" lon="2.374824"><name>Fin étape 29/94 — km 578</name><desc>Boulevard Voltaire · Saint-Ambroise (métro, 10 m)</desc></wpt>
+<wpt lat="48.851479" lon="2.375358"><name>Fin étape 30/94 — km 598</name><desc>Rue du Faubourg Saint-Antoine · Ledru-Rollin (métro, 50 m)</desc></wpt>
+<wpt lat="48.844981" lon="2.401971"><name>Fin étape 31/94 — km 619</name><desc>Avenue de Saint-Mandé · Picpus (métro, 110 m)</desc></wpt>
+<wpt lat="48.835373" lon="2.406506"><name>Fin étape 32/94 — km 640</name><desc>Place Édouard Renard · Porte Dorée (métro, 30 m)</desc></wpt>
+<wpt lat="48.840869" lon="2.400926"><name>Fin étape 33/94 — km 660</name><desc>Boulevard de Picpus · Bel-Air (métro, 50 m)</desc></wpt>
+<wpt lat="48.852701" lon="2.406116"><name>Fin étape 34/94 — km 679</name><desc>Rue des Pyrénées · Maraîchers (métro, 0 m)</desc></wpt>
+<wpt lat="48.862937" lon="2.387544"><name>Fin étape 35/94 — km 699</name><desc>Boulevard de Ménilmontant · Père Lachaise (métro, 10 m)</desc></wpt>
+<wpt lat="48.885182" lon="2.379361"><name>Fin étape 36/94 — km 718</name><desc>Avenue Jean Jaurès · Laumière (métro, 10 m)</desc></wpt>
+<wpt lat="48.876765" lon="2.406939"><name>Fin étape 37/94 — km 742</name><desc>Boulevard Mortier · Porte des Lilas (tram, 20 m)</desc></wpt>
+<wpt lat="48.853504" lon="2.410637"><name>Fin étape 38/94 — km 762</name><desc>Boulevard Davout · Porte de Montreuil (métro, 0 m)</desc></wpt>
+<wpt lat="48.850132" lon="2.384343"><name>Fin étape 39/94 — km 781</name><desc>Rue du Faubourg Saint-Antoine · Faidherbe — Chaligny (métro, 10 m)</desc></wpt>
+<wpt lat="48.847788" lon="2.395808"><name>Fin étape 40/94 — km 802</name><desc>Place de la Nation · Nation (métro, 20 m)</desc></wpt>
+<wpt lat="48.828107" lon="2.392289"><name>Fin étape 41/94 — km 821</name><desc>Voie Ce/12 · Baron Le Roy (tram, 270 m)</desc></wpt>
+<wpt lat="48.837180" lon="2.374015"><name>Fin étape 42/94 — km 841</name><desc>Quai de la Gare · Quai de la Gare (métro, 90 m)</desc></wpt>
+<wpt lat="48.827019" lon="2.366496"><name>Fin étape 43/94 — km 862</name><desc>Rue de Tolbiac · Olympiades (métro, 10 m)</desc></wpt>
+<wpt lat="48.821452" lon="2.358776"><name>Fin étape 44/94 — km 882</name><desc>Rue André Pieyre de Mandiargues · Maison Blanche (métro, 10 m)</desc></wpt>
+<wpt lat="48.820132" lon="2.339109"><name>Fin étape 45/94 — km 902</name><desc>Boulevard Jourdan · Cité Universitaire (tram, 10 m)</desc></wpt>
+<wpt lat="48.826030" lon="2.312572"><name>Fin étape 46/94 — km 922</name><desc>Boulevard Brune · Didot (tram, 60 m)</desc></wpt>
+<wpt lat="48.820787" lon="2.325502"><name>Fin étape 47/94 — km 941</name><desc>Avenue de la Porte d'Orléans · Porte d'Orléans (tram, 250 m)</desc></wpt>
+<wpt lat="48.835330" lon="2.317864"><name>Fin étape 48/94 — km 962</name><desc>Rue de l'Abbé Soulange-Bodin · Pernety (métro, 150 m)</desc></wpt>
+<wpt lat="48.841192" lon="2.324815"><name>Fin étape 49/94 — km 982</name><desc>Place Fernand Mourlot · Edgar Quinet (métro, 20 m)</desc></wpt>
+<wpt lat="48.831961" lon="2.313565"><name>Fin étape 50/94 — km 1002</name><desc>Rue d'Alésia · Plaisance (métro, 40 m)</desc></wpt>
+<wpt lat="48.834207" lon="2.332354"><name>Fin étape 51/94 — km 1023</name><desc>Place Denfert-Rochereau · Denfert-Rochereau (métro, 20 m)</desc></wpt>
+<wpt lat="48.828092" lon="2.326794"><name>Fin étape 52/94 — km 1043</name><desc>Place Victor et Hélène Basch · Alésia (métro, 20 m)</desc></wpt>
+<wpt lat="48.843218" lon="2.351398"><name>Fin étape 53/94 — km 1064</name><desc>Rue Gracieuse · Place Monge (métro, 70 m)</desc></wpt>
+<wpt lat="48.840086" lon="2.367899"><name>Fin étape 54/94 — km 1083</name><desc>Rue Gisèle Freund · Paris Austerlitz RER (gare, 90 m)</desc></wpt>
+<wpt lat="48.846438" lon="2.351722"><name>Fin étape 55/94 — km 1104</name><desc>Rue des Boulangers · Cardinal Lemoine (métro, 10 m)</desc></wpt>
+<wpt lat="48.862851" lon="2.313444"><name>Fin étape 56/94 — km 1123</name><desc>Quai d'Orsay · Invalides (gare, 30 m)</desc></wpt>
+<wpt lat="48.846899" lon="2.271993"><name>Fin étape 57/94 — km 1144</name><desc>Rue Mirabeau · Mirabeau (métro, 20 m)</desc></wpt>
+<wpt lat="48.845494" lon="2.267150"><name>Fin étape 58/94 — km 1164</name><desc>Rue Chardon-Lagache · Chardon-Lagache (métro, 10 m)</desc></wpt>
+<wpt lat="48.847892" lon="2.257205"><name>Fin étape 59/94 — km 1185</name><desc>Voie Bx/16 · Porte d'Auteuil (métro, 120 m)</desc></wpt>
+<wpt lat="48.858181" lon="2.274530"><name>Fin étape 60/94 — km 1205</name><desc>Avenue Paul Doumer · La Muette (métro, 40 m)</desc></wpt>
+<wpt lat="48.864042" lon="2.277486"><name>Fin étape 61/94 — km 1223</name><desc>Allée Pierre-Christian Taittinger · Rue de la Pompe (métro, 50 m)</desc></wpt>
+<wpt lat="48.847296" lon="2.268894"><name>Fin étape 62/94 — km 1243</name><desc>Rue Chardon-Lagache · Église d'Auteuil (métro, 20 m)</desc></wpt>
+<wpt lat="48.849165" lon="2.298041"><name>Fin étape 63/94 — km 1264</name><desc>Boulevard de Grenelle · La Motte-Picquet - Grenelle (métro, 10 m)</desc></wpt>
+<wpt lat="48.849535" lon="2.298557"><name>Fin étape 64/94 — km 1285</name><desc>Avenue de la Motte-Picquet · La Motte-Picquet - Grenelle (métro, 60 m)</desc></wpt>
+<wpt lat="48.847139" lon="2.307340"><name>Fin étape 65/94 — km 1306</name><desc>Avenue de Suffren · Ségur (métro, 20 m)</desc></wpt>
+<wpt lat="48.838188" lon="2.270648"><name>Fin étape 66/94 — km 1326</name><desc>Boulevard du Général Martial Valin · Pont du Garigliano (tram, 40 m)</desc></wpt>
+<wpt lat="48.842871" lon="2.312380"><name>Fin étape 67/94 — km 1346</name><desc>Boulevard Pasteur · Pasteur (métro, 20 m)</desc></wpt>
+<wpt lat="48.832288" lon="2.287641"><name>Fin étape 68/94 — km 1366</name><desc>Place de la Porte de Versailles · Porte de Versailles (métro, 30 m)</desc></wpt>
+<wpt lat="48.842718" lon="2.291827"><name>Fin étape 69/94 — km 1387</name><desc>Place Étienne Pernet · Félix Faure (métro, 10 m)</desc></wpt>
+<wpt lat="48.853720" lon="2.280046"><name>Fin étape 70/94 — km 1407</name><desc>Rue du Docteur Germain Sée · Avenue du Président Kennedy - Maison de Radio-France (gare, 60 m)</desc></wpt>
+<wpt lat="48.845829" lon="2.309459"><name>Fin étape 71/94 — km 1427</name><desc>Avenue de Suffren · Sèvres-Lecourbe (métro, 30 m)</desc></wpt>
+<wpt lat="48.860775" lon="2.325368"><name>Fin étape 72/94 — km 1446</name><desc>Quai Valéry Giscard d'Estaing · Musée d'Orsay (gare, 40 m)</desc></wpt>
+<wpt lat="48.862222" lon="2.301513"><name>Fin étape 73/94 — km 1466</name><desc>Place de la Résistance · Pont de l'Alma (gare, 120 m)</desc></wpt>
+<wpt lat="48.863802" lon="2.278741"><name>Fin étape 74/94 — km 1486</name><desc>Avenue Georges Mandel · Rue de la Pompe (métro, 50 m)</desc></wpt>
+<wpt lat="48.881294" lon="2.285676"><name>Fin étape 75/94 — km 1506</name><desc>Rue Ruhmkorff · Anny Flore (tram, 20 m)</desc></wpt>
+<wpt lat="48.887797" lon="2.295927"><name>Fin étape 76/94 — km 1527</name><desc>Avenue Paul Adam · Square Sainte-Odile (tram, 40 m)</desc></wpt>
+<wpt lat="48.887231" lon="2.313900"><name>Fin étape 77/94 — km 1547</name><desc>Rue Cardinet · Pont Cardinet (gare, 90 m)</desc></wpt>
+<wpt lat="48.889107" lon="2.316101"><name>Fin étape 78/94 — km 1566</name><desc>Rue Cardinet · Pont Cardinet (métro, 70 m)</desc></wpt>
+<wpt lat="48.897313" lon="2.324338"><name>Fin étape 79/94 — km 1586</name><desc>Rue des Épinettes · Épinettes-Pouchet (tram, 50 m)</desc></wpt>
+<wpt lat="48.898126" lon="2.338363"><name>Fin étape 80/94 — km 1607</name><desc>Rue Frédéric Schneider · Angélique Compoint - Porte de Montmartre (tram, 30 m)</desc></wpt>
+<wpt lat="48.894270" lon="2.315068"><name>Fin étape 81/94 — km 1627</name><desc>Rue Fragonard · Porte de Clichy (gare, 20 m)</desc></wpt>
+<wpt lat="48.874438" lon="2.295517"><name>Fin étape 82/94 — km 1647</name><desc>Place Charles de Gaulle · Charles de Gaulle — Étoile (métro, 0 m)</desc></wpt>
+<wpt lat="48.869805" lon="2.285662"><name>Fin étape 83/94 — km 1666</name><desc>Avenue Victor Hugo · Victor Hugo (métro, 30 m)</desc></wpt>
+<wpt lat="48.871872" lon="2.301043"><name>Fin étape 84/94 — km 1684</name><desc>Avenue des Champs Élysées · George V (métro, 50 m)</desc></wpt>
+<wpt lat="48.864479" lon="2.293576"><name>Fin étape 85/94 — km 1704</name><desc>Place d'Iéna · Iéna (métro, 20 m)</desc></wpt>
+<wpt lat="48.873080" lon="2.310020"><name>Fin étape 86/94 — km 1722</name><desc>Rue du Faubourg Saint-Honoré · Saint-Philippe du Roule (métro, 90 m)</desc></wpt>
+<wpt lat="48.876357" lon="2.332414"><name>Fin étape 87/94 — km 1741</name><desc>Place d'Estienne d'Orves · Trinité d'Estienne d'Orves (métro, 20 m)</desc></wpt>
+<wpt lat="48.863864" lon="2.349041"><name>Fin étape 88/94 — km 1763</name><desc>Rue Étienne Marcel · Étienne Marcel (métro, 0 m)</desc></wpt>
+<wpt lat="48.882934" lon="2.344453"><name>Fin étape 89/94 — km 1785</name><desc>Boulevard Marguerite de Rochechouart · Anvers (métro, 20 m)</desc></wpt>
+<wpt lat="48.882418" lon="2.337911"><name>Fin étape 90/94 — km 1803</name><desc>Boulevard de Clichy · Pigalle (métro, 20 m)</desc></wpt>
+<wpt lat="48.878762" lon="2.322241"><name>Fin étape 91/94 — km 1822</name><desc>Rue de Madrid · Europe (métro, 0 m)</desc></wpt>
+<wpt lat="48.871489" lon="2.343069"><name>Fin étape 92/94 — km 1842</name><desc>Rue du Faubourg Montmartre · Grands Boulevards (métro, 30 m)</desc></wpt>
+<wpt lat="48.864524" lon="2.369367"><name>Fin étape 93/94 — km 1862</name><desc>Rue de Crussol · Oberkampf (métro, 50 m)</desc></wpt>
 <trk><name>Paris à pied, toutes les rues — parcours complet</name><trkseg>
 <trkpt lat="48.853093" lon="2.348738"/>
 <trkpt lat="48.853125" lon="2.348635"/>

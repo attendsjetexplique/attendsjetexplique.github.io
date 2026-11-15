@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="@attends.je.texplique" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>Lyon à pied, toutes les rues — parcours complet</name><desc>818 km en boucle, 41 étapes. Données : Métropole de Lyon, voies (data.grandlyon.com), données du 13/11/2026. Calcul : @attends.je.texplique.</desc></metadata>
-<wpt lat="45.758383" lon="4.832491"><name>Départ et arrivée de la boucle</name></wpt>
+<metadata><name>Lyon à pied, toutes les rues — parcours complet</name><desc>818 km en boucle, 41 étapes : un repère marque la fin de chaque étape (km et station la plus proche). Données : Métropole de Lyon, voies (data.grandlyon.com), données du 13/11/2026. Calcul : @attends.je.texplique.</desc></metadata>
+<wpt lat="45.758383" lon="4.832491"><name>Km 0 — départ et arrivée de la boucle</name><desc>Place Bellecour · Bellecour (métro, 120 m)</desc></wpt>
+<wpt lat="45.746803" lon="4.836792"><name>Fin étape 1/41 — km 21</name><desc>Avenue Berthelot · Centre Berthelot - Sciences Po Lyon (tram, 40 m)</desc></wpt>
+<wpt lat="45.760406" lon="4.848294"><name>Fin étape 2/41 — km 39</name><desc>Rue Voltaire · Palais de Justice - Mairie du 3e (tram, 10 m)</desc></wpt>
+<wpt lat="45.769054" lon="4.846027"><name>Fin étape 3/41 — km 55</name><desc>Cours Franklin Roosevelt · Foch (métro, 140 m)</desc></wpt>
+<wpt lat="45.770960" lon="4.846910"><name>Fin étape 4/41 — km 79</name><desc>Rue Sully · Foch (métro, 320 m)</desc></wpt>
+<wpt lat="45.771207" lon="4.835875"><name>Fin étape 5/41 — km 99</name><desc>Rue des Tables Claudiennes · Croix-Paquet (métro, 30 m)</desc></wpt>
+<wpt lat="45.766923" lon="4.859525"><name>Fin étape 6/41 — km 119</name><desc>Place Jules Ferry · Brotteaux (métro, 30 m)</desc></wpt>
+<wpt lat="45.747434" lon="4.896578"><name>Fin étape 7/41 — km 141</name><desc>Boulevard Pinel · Hôpitaux Est - Pinel (tram, 20 m)</desc></wpt>
+<wpt lat="45.741326" lon="4.885187"><name>Fin étape 8/41 — km 160</name><desc>Rue Viala · Ambroise Paré (tram, 100 m)</desc></wpt>
+<wpt lat="45.733257" lon="4.879103"><name>Fin étape 9/41 — km 181</name><desc>Boulevard Edmond Michelet · Mermoz - Californie (tram, 50 m)</desc></wpt>
+<wpt lat="45.738190" lon="4.863746"><name>Fin étape 10/41 — km 201</name><desc>Rue de la Rosière · Villon (tram, 40 m)</desc></wpt>
+<wpt lat="45.751896" lon="4.852838"><name>Fin étape 11/41 — km 223</name><desc>Cours Gambetta · Garibaldi (métro, 50 m)</desc></wpt>
+<wpt lat="45.729829" lon="4.867119"><name>Fin étape 12/41 — km 242</name><desc>Boulevard des Etats-Unis · Beauvisage - C.I.S.L. (tram, 10 m)</desc></wpt>
+<wpt lat="45.728293" lon="4.844167"><name>Fin étape 13/41 — km 263</name><desc>Espace Henry Vallée · Challemel Lacour - Artillerie (tram, 160 m)</desc></wpt>
+<wpt lat="45.746720" lon="4.824272"><name>Fin étape 14/41 — km 282</name><desc>Cours Charlemagne · Place des Archives (tram, 50 m)</desc></wpt>
+<wpt lat="45.731783" lon="4.822838"><name>Fin étape 15/41 — km 301</name><desc>Rue Antonin Perrin · Halle Tony Garnier (tram, 10 m)</desc></wpt>
+<wpt lat="45.743750" lon="4.841005"><name>Fin étape 16/41 — km 321</name><desc>Rue Victor Lagrange · Lyon Jean Macé (gare, 150 m)</desc></wpt>
+<wpt lat="45.731364" lon="4.833640"><name>Fin étape 17/41 — km 339</name><desc>Avenue Debourg · Debourg (tram, 80 m)</desc></wpt>
+<wpt lat="45.736649" lon="4.868537"><name>Fin étape 18/41 — km 360</name><desc>Place du 11 Novembre 1918 · Bachut - Mairie du 8e (tram, 30 m)</desc></wpt>
+<wpt lat="45.745557" lon="4.871246"><name>Fin étape 19/41 — km 380</name><desc>Cours Albert Thomas · Monplaisir - Lumière (métro, 20 m)</desc></wpt>
+<wpt lat="45.752628" lon="4.868716"><name>Fin étape 20/41 — km 397</name><desc>Rue du Dauphiné · Dauphiné - Lacassagne (tram, 40 m)</desc></wpt>
+<wpt lat="45.757107" lon="4.862526"><name>Fin étape 21/41 — km 415</name><desc>Rue Maurice Flandin · Part-Dieu Villette Sud (tram, 70 m)</desc></wpt>
+<wpt lat="45.767286" lon="4.862573"><name>Fin étape 22/41 — km 435</name><desc>Rue de la Gaîté · Collège Bellecombe (tram, 80 m)</desc></wpt>
+<wpt lat="45.768811" lon="4.845008"><name>Fin étape 23/41 — km 456</name><desc>Rue Vendôme · Foch (métro, 50 m)</desc></wpt>
+<wpt lat="45.763520" lon="4.836797"><name>Fin étape 24/41 — km 477</name><desc>Place des Cordeliers · Cordeliers (métro, 80 m)</desc></wpt>
+<wpt lat="45.751211" lon="4.838631"><name>Fin étape 25/41 — km 498</name><desc>Rue de l'Université · Rue de l'Université (tram, 30 m)</desc></wpt>
+<wpt lat="45.745188" lon="4.841884"><name>Fin étape 26/41 — km 518</name><desc>Avenue Berthelot · Lyon Jean Macé (gare, 30 m)</desc></wpt>
+<wpt lat="45.755037" lon="4.842455"><name>Fin étape 27/41 — km 538</name><desc>Rue Basse Combalot · Guillotière - Gabriel Péri (tram, 10 m)</desc></wpt>
+<wpt lat="45.758274" lon="4.821107"><name>Fin étape 28/41 — km 559</name><desc>Place des Minimes · Minimes - Théâtres romains (funiculaire, 40 m)</desc></wpt>
+<wpt lat="45.753970" lon="4.798030"><name>Fin étape 29/41 — km 575</name><desc>Rue des Granges</desc></wpt>
+<wpt lat="45.763784" lon="4.786720"><name>Fin étape 30/41 — km 593</name><desc>Voie verte Champvert Trion · Écully la Demi-Lune (gare, 620 m)</desc></wpt>
+<wpt lat="45.757055" lon="4.813535"><name>Fin étape 31/41 — km 612</name><desc>Rue des Anges · Saint-Just (funiculaire, 210 m)</desc></wpt>
+<wpt lat="45.779245" lon="4.801891"><name>Fin étape 32/41 — km 635</name><desc>Rue de Bourgogne · Lyon Vaise (gare, 170 m)</desc></wpt>
+<wpt lat="45.785821" lon="4.796464"><name>Fin étape 33/41 — km 654</name><desc>Place Gisèle Halimi</desc></wpt>
+<wpt lat="45.796398" lon="4.824654"><name>Fin étape 34/41 — km 676</name><desc>Montée de la Sauvagère</desc></wpt>
+<wpt lat="45.780502" lon="4.809054"><name>Fin étape 35/41 — km 697</name><desc>Quai du Commerce · Gare de Vaise - Gérard Collomb (métro, 350 m)</desc></wpt>
+<wpt lat="45.774273" lon="4.805391"><name>Fin étape 36/41 — km 717</name><desc>Rue Sergent Michel Berthet · Valmy (métro, 40 m)</desc></wpt>
+<wpt lat="45.774289" lon="4.830855"><name>Fin étape 37/41 — km 741</name><desc>Boulevard de la Croix-Rousse · Croix-Rousse (métro, 80 m)</desc></wpt>
+<wpt lat="45.768074" lon="4.827675"><name>Fin étape 38/41 — km 761</name><desc>Quai Saint Vincent · Lyon-Saint-Paul (gare, 230 m)</desc></wpt>
+<wpt lat="45.779551" lon="4.827461"><name>Fin étape 39/41 — km 778</name><desc>Boulevard des Canuts · Hénon (métro, 10 m)</desc></wpt>
+<wpt lat="45.762075" lon="4.821480"><name>Fin étape 40/41 — km 795</name><desc>Rue Roger Radisson · Fourvière (funiculaire, 30 m)</desc></wpt>
 <trk><name>Lyon à pied, toutes les rues — parcours complet</name><trkseg>
 <trkpt lat="45.758383" lon="4.832491"/>
 <trkpt lat="45.758797" lon="4.831004"/>

@@ -32,7 +32,7 @@ button{font:inherit;color:inherit}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
 /* Barre */
-.barre{position:sticky;top:0;z-index:1000;background:rgba(6,16,29,.85);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--ligne)}
+.barre{position:sticky;top:0;z-index:1100;background:rgba(6,16,29,.85);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--ligne)}
 .barre .conteneur{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
 .fil{display:flex;align-items:center;gap:10px;min-width:0;font-weight:600;font-size:15px}
 .fil a{text-decoration:none;display:flex;align-items:center;gap:10px;font-family:var(--titre);font-weight:800;font-size:16px;white-space:nowrap}
@@ -113,6 +113,17 @@ h1 .ville-nom{background:linear-gradient(100deg,var(--orange),#ffc38f);-webkit-b
 .actions-fiche{display:grid;grid-template-columns:1fr auto;gap:8px}
 .actions-fiche .large{grid-column:1/-1}
 .actions-sec{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.complet{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:16px;padding:18px 20px;border-radius:20px;
+  background:linear-gradient(120deg,rgba(255,150,64,.13),rgba(47,107,255,.10) 70%);border:1px solid rgba(255,150,64,.35)}
+.complet .zero{flex:none;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:var(--orange);color:#06101d;
+  font:800 13px/1 var(--titre);text-align:center;box-shadow:0 0 0 5px rgba(255,150,64,.18)}
+.complet .zero b{display:block;font-size:20px}
+.complet .txt{flex:1 1 260px;min-width:0}
+.complet .txt b{display:block;font-family:var(--titre);font-size:19px;letter-spacing:-.01em}
+.complet .txt span{display:block;margin-top:4px;font-size:14px;line-height:1.45;color:var(--doux)}
+.complet .btns{display:flex;gap:8px;flex-wrap:wrap}
+.km0{width:30px;height:30px;border-radius:50%;background:var(--orange);border:3px solid #06101d;color:#06101d;display:grid;place-items:center;
+  font:800 10px/1 var(--titre);box-shadow:0 0 0 4px rgba(255,150,64,.35)}
 .actions-sec .btn{flex:1}
 .faite-btn[aria-pressed=true]{background:rgba(91,227,162,.14);border-color:rgba(91,227,162,.5);color:var(--vert)}
 .nav-etapes{display:flex;gap:6px}
@@ -216,6 +227,7 @@ footer p{margin:6px 0;max-width:90ch}
     <p class="accroche">Le parcours le plus court qui passe dans chaque rue, calculé pour nos vidéos. Découpé en étapes d'une demi-journée, qui partent et arrivent près d'une station. Choisis une étape, télécharge-la, marche.</p>
     <div class="choix-villes" id="villes" role="group" aria-label="Choisir une ville"></div>
     <div class="chiffres" id="chiffres"></div>
+    <div class="complet" id="complet"></div>
   </div>
 
   <div class="outil">
@@ -312,7 +324,7 @@ footer p{margin:6px 0;max-width:90ch}
   const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const C = {bleu: '#4a83ff', orange: '#ff9640', fond: '#2b4a7a', vert: '#5be3a2'};
   const reduit = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  let D, ville, etapes = [], carteData = {}, map, coucheFond, coucheFaites, coucheChoisie, marqueurs = [], choix = 1, filtre = 'toutes', vueFaite = false;
+  let D, ville, etapes = [], carteData = {}, map, coucheFond, coucheFaites, coucheChoisie, marqueurs = [], marqueurZero, choix = 1, filtre = 'toutes', vueFaite = false;
 
   // Progression : seulement dans ce navigateur (confort personnel), la page marche sans
   const cleProg = () => 'parcours-faites-' + ville.cle;
@@ -373,6 +385,19 @@ footer p{margin:6px 0;max-width:90ch}
       [`${fmt(ville.km_refait, 0)}<small>km</small>`, `à refaire pour enchaîner (${pRefait} %)`, 'accent'],
       [`${ville.nb_etapes}`, `étapes, soit ${ville.nb_etapes} demi-journées`, '']
     ].map(([b, s, c]) => `<div class="chiffre ${c}"><b>${b}</b><span>${s}</span></div>`).join('');
+    const d0 = etapes[0].depart, lieu0 = d0.rue || station(d0);
+    $('#complet').innerHTML = `
+      <div class="zero" aria-hidden="true"><span>km<b>0</b></span></div>
+      <div class="txt"><b>Le tracé complet, d'une traite</b>
+        <span>${fmt(ville.km_total, 0)} km en une seule boucle. Départ et arrivée : ${esc(lieu0)}${d0.station ? ` (${esc(station(d0))})` : ''}. Un repère marque la fin de chacune des ${ville.nb_etapes} étapes : suis un seul fichier, arrête-toi où tu veux.</span></div>
+      <div class="btns">
+        <a class="btn btn-orange btn-petit" href="${ville.complet}" download>Télécharger le tracé complet${ville.complet_mo ? ` (GPX, ${fmt(ville.complet_mo)} Mo)` : ' (GPX)'}</a>
+        <button class="btn btn-verre btn-petit" id="voir-zero">Voir le km 0</button>
+      </div>`;
+    $('#voir-zero').onclick = () => { choisir(1, true); document.querySelector('.cadre-carte').scrollIntoView({behavior: reduit ? 'auto' : 'smooth', block: 'start'}); };
+    if (marqueurZero) map.removeLayer(marqueurZero);
+    marqueurZero = L.marker([d0.p[1], d0.p[0]], {icon: L.divIcon({className: '', html: '<div class="km0">km 0</div>', iconSize: [30, 30], iconAnchor: [15, 15]}), zIndexOffset: 1000, keyboard: false})
+      .bindTooltip(`Départ et arrivée de la boucle : ${esc(lieu0)}`, {direction: 'top', offset: [0, -14]}).addTo(map);
     $('#sources').textContent = `Périmètre (${ville.nom}) : ${ville.perimetre} Données : ${ville.source}.`;
     const et = await donneesCarte(ville.cle);
     if (coucheFond) map.removeLayer(coucheFond);
@@ -452,7 +477,7 @@ footer p{margin:6px 0;max-width:90ch}
         <button class="btn btn-verre btn-petit" id="partager">Partager</button>
         <button class="btn btn-verre btn-petit faite-btn" id="faite" aria-pressed="${faite}">${faite ? '✓ Faite' : 'Marquer comme faite'}</button>
       </div>
-      <div class="actions-sec"><a class="btn btn-verre btn-petit" href="${ville.complet}" download>Tout ${esc(ville.nom)} en un fichier (${ville.nb_etapes} étapes)</a></div>`;
+`;
     $('#prec').onclick = () => choisir(n - 1, true);
     $('#suiv').onclick = () => choisir(n + 1, true);
     $('#faite').onclick = () => basculerFaite(n);
