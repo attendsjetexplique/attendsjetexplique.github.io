@@ -9,7 +9,9 @@
 <meta property="og:description" content="Des vidéos courtes, et de quoi passer de l'écran au terrain : toutes les rues de Paris et de Lyon, à pied.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#06101d">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306101d'/%3E%3Cpath d='M7 24 L12 9 L19 20 L25 8' stroke='%232f6bff' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='25' cy='8' r='2.6' fill='%23ff9640'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/logo-32.png">
+<link rel="apple-touch-icon" href="assets/logo-180.png">
+<meta property="og:image" content="https://attendsjetexplique.github.io/assets/partage.jpg">
 <script>
   // Anciens liens directs vers une étape (…/#lyon/12) : la page des parcours vit dans /parcours/
   if (/^#[a-z-]+\/\d+$/.test(location.hash)) location.replace('parcours/' + location.hash);
@@ -34,7 +36,7 @@ a{color:inherit}
 .barre.pleine{background:rgba(6,16,29,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-color:var(--ligne)}
 .barre .conteneur{display:flex;align-items:center;justify-content:space-between;height:64px}
 .marque{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--titre);font-weight:800;font-size:17px;letter-spacing:-.01em}
-.marque svg{width:30px;height:30px}
+
 .btn{display:inline-flex;align-items:center;gap:8px;border-radius:12px;padding:13px 18px;font:600 15px/1 var(--corps);text-decoration:none;border:1px solid transparent;cursor:pointer;transition:transform .15s,background .2s,border-color .2s}
 .btn:active{transform:translateY(1px)}
 .btn svg{width:18px;height:18px;flex:none}
@@ -50,7 +52,7 @@ a{color:inherit}
   radial-gradient(ellipse 70% 60% at 18% 45%,rgba(6,16,29,.96) 0%,rgba(6,16,29,.8) 45%,rgba(6,16,29,.15) 80%),
   linear-gradient(180deg,rgba(6,16,29,.5) 0%,transparent 25%,transparent 70%,var(--fond) 100%)}
 .surtitre{display:inline-flex;align-items:center;gap:8px;font:600 13px/1 var(--corps);letter-spacing:.06em;color:var(--bleu-clair);background:rgba(47,107,255,.12);border:1px solid rgba(47,107,255,.35);padding:8px 12px;border-radius:999px}
-.surtitre i{width:7px;height:7px;border-radius:50%;background:var(--orange);box-shadow:0 0 0 4px rgba(255,150,64,.2)}
+.surtitre img{width:22px;height:22px;border-radius:50%;margin:-4px 0 -4px -6px}
 h1{font-family:var(--titre);font-weight:800;font-size:clamp(44px,8.4vw,100px);line-height:.95;letter-spacing:-.035em;margin:22px 0 22px;max-width:11ch}
 h1 em{font-style:normal;background:linear-gradient(100deg,var(--orange),#ffc38f);-webkit-background-clip:text;background-clip:text;color:transparent}
 .accroche{font-size:clamp(18px,2.2vw,21px);color:var(--doux);max-width:34ch;margin:0 0 32px}
@@ -115,13 +117,14 @@ footer .conteneur{display:flex;justify-content:space-between;gap:16px;flex-wrap:
   .apparait{opacity:1;transform:none;transition:none}
   .vedette,.btn{transition:none}
 }
+.logo{width:32px;height:32px;flex:none;border-radius:50%;box-shadow:0 0 0 1px rgba(122,162,255,.35),0 0 16px rgba(47,107,255,.45)}
 </style>
 </head>
 <body>
 <header class="barre" id="barre">
   <div class="conteneur">
     <a class="marque" href="./" aria-label="Attends, je t'explique, accueil">
-      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0c1a2e" stroke="rgba(120,160,230,.3)"/><path d="M7 24 L12 9 L19 20 L25 8" stroke="#2f6bff" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="25" cy="8" r="2.6" fill="#ff9640"/></svg>
+      <img class="logo" src="assets/logo-64.png" width="32" height="32" alt="">
       Attends, je t'explique
     </a>
     <a class="btn btn-verre btn-petit" href="https://www.instagram.com/attends.je.texplique/" rel="noopener" aria-label="Suivre sur Instagram">
@@ -135,7 +138,7 @@ footer .conteneur{display:flex;justify-content:space-between;gap:16px;flex-wrap:
   <div class="heros">
     <canvas id="trace" aria-hidden="true"></canvas>
     <div class="conteneur">
-      <span class="surtitre"><i></i>@attends.je.texplique</span>
+      <span class="surtitre"><img src="assets/logo-64.png" width="22" height="22" alt="">@attends.je.texplique</span>
       <h1>Ce que personne ne t'a <em>expliqué</em>.</h1>
       <p class="accroche">Des vidéos courtes sur la science, l'histoire et la tech. Et ici, de quoi passer de l'écran au terrain.</p>
       <div class="actions">
