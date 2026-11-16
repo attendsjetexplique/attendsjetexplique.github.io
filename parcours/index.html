@@ -195,7 +195,11 @@ footer p{margin:6px 0;max-width:90ch}
 @media (max-width:520px){
   .fil .sep,.fil .ici{display:none}
   .barre .btn-texte{display:none}
-  .choix-ville{flex:1;min-width:0}
+  .choix-villes{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .choix-ville{min-width:0;padding:10px 12px 10px 10px;gap:10px}
+  .choix-ville canvas{width:36px;height:36px}
+  .choix-ville b{font-size:18px}
+  .choix-ville span{font-size:12px}
   .heros{padding-top:32px}
   .legende{display:none}
 }
