@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15",
+ "maj": "2026-11-16",
  "vitesse_kmh": 5.0,
  "villes": [
   {
@@ -3132,6 +3132,2426 @@
       ]
      },
      "gpx": "lyon/gpx/lyon-etape-41.gpx"
+    }
+   ]
+  },
+  {
+   "cle": "toulouse",
+   "nom": "Toulouse",
+   "km_total": 1653,
+   "km_rues": 1224,
+   "km_refait": 430,
+   "nb_etapes": 81,
+   "perimetre": "Voies publiques de la commune de Toulouse, sans autoroutes, voies express ni bretelles.",
+   "source": "Toulouse Métropole, filaire de voirie (data.toulouse-metropole.fr), données du 15/11/2026 ; noms : Base Adresse Nationale",
+   "complet": "toulouse/gpx/toulouse-complet.gpx",
+   "complet_mo": 1.7,
+   "etapes": [
+    {
+     "n": 1,
+     "km": 17.5,
+     "km_refait": 4.1,
+     "duree": "3 h 30",
+     "depart": {
+      "rue": "Rue Dominique Baudis",
+      "station": "Capitole (métro, 200 m)",
+      "p": [
+       1.44283,
+       43.60483
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard de la Marquette",
+      "station": "Canal du Midi (métro, 40 m)",
+      "p": [
+       1.43443,
+       43.61512
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-01.gpx"
+    },
+    {
+     "n": 2,
+     "km": 20.7,
+     "km_refait": 4.3,
+     "duree": "4 h 08",
+     "depart": {
+      "rue": "Boulevard de la Marquette",
+      "station": "Canal du Midi (métro, 40 m)",
+      "p": [
+       1.43443,
+       43.61512
+      ]
+     },
+     "arrivee": {
+      "rue": "Place de la Patte d'Oie",
+      "station": "Patte d'Oie (métro, 20 m)",
+      "p": [
+       1.42282,
+       43.59634
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-02.gpx"
+    },
+    {
+     "n": 3,
+     "km": 20.3,
+     "km_refait": 5.8,
+     "duree": "4 h 03",
+     "depart": {
+      "rue": "Place de la Patte d'Oie",
+      "station": "Patte d'Oie (métro, 20 m)",
+      "p": [
+       1.42282,
+       43.59634
+      ]
+     },
+     "arrivee": {
+      "rue": "Route de Saint Simon",
+      "station": null,
+      "p": [
+       1.39581,
+       43.5811
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-03.gpx"
+    },
+    {
+     "n": 4,
+     "km": 22.4,
+     "km_refait": 6.7,
+     "duree": "4 h 29",
+     "depart": {
+      "rue": "Route de Saint Simon",
+      "station": null,
+      "p": [
+       1.39581,
+       43.5811
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Jacques-Jean Esquie",
+      "station": null,
+      "p": [
+       1.39275,
+       43.5806
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-04.gpx"
+    },
+    {
+     "n": 5,
+     "km": 18.8,
+     "km_refait": 4.8,
+     "duree": "3 h 45",
+     "depart": {
+      "rue": "Rue Jacques-Jean Esquie",
+      "station": null,
+      "p": [
+       1.39275,
+       43.5806
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Roger Camboulives",
+      "station": "Basso Cambo (métro, 150 m)",
+      "p": [
+       1.39044,
+       43.56998
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-05.gpx"
+    },
+    {
+     "n": 6,
+     "km": 17.3,
+     "km_refait": 3.6,
+     "duree": "3 h 28",
+     "depart": {
+      "rue": "Rue Roger Camboulives",
+      "station": "Basso Cambo (métro, 150 m)",
+      "p": [
+       1.39044,
+       43.56998
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Georges Bernanos",
+      "station": "Bellefontaine (métro, 30 m)",
+      "p": [
+       1.39819,
+       43.56582
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-06.gpx"
+    },
+    {
+     "n": 7,
+     "km": 16.7,
+     "km_refait": 4.1,
+     "duree": "3 h 20",
+     "depart": {
+      "rue": "Allée de Bellefontaine",
+      "station": "Bellefontaine (métro, 30 m)",
+      "p": [
+       1.39819,
+       43.56582
+      ]
+     },
+     "arrivee": {
+      "rue": "Chemin du Renard",
+      "station": null,
+      "p": [
+       1.39443,
+       43.55712
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-07.gpx"
+    },
+    {
+     "n": 8,
+     "km": 19.7,
+     "km_refait": 5.3,
+     "duree": "3 h 56",
+     "depart": {
+      "rue": "Chemin de Lestang",
+      "station": null,
+      "p": [
+       1.39443,
+       43.55712
+      ]
+     },
+     "arrivee": {
+      "rue": "Chemin de Guilhermy",
+      "station": null,
+      "p": [
+       1.37366,
+       43.56517
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-08.gpx"
+    },
+    {
+     "n": 9,
+     "km": 23.4,
+     "km_refait": 7.3,
+     "duree": "4 h 41",
+     "depart": {
+      "rue": "Chemin de Guilhermy",
+      "station": null,
+      "p": [
+       1.37366,
+       43.56517
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Dhuoda",
+      "station": null,
+      "p": [
+       1.39242,
+       43.55215
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-09.gpx"
+    },
+    {
+     "n": 10,
+     "km": 23.0,
+     "km_refait": 7.5,
+     "duree": "4 h 36",
+     "depart": {
+      "rue": "Chemin de Monlong",
+      "station": null,
+      "p": [
+       1.39242,
+       43.55215
+      ]
+     },
+     "arrivee": {
+      "rue": "Route de Seysses",
+      "station": null,
+      "p": [
+       1.40508,
+       43.56083
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-10.gpx"
+    },
+    {
+     "n": 11,
+     "km": 19.8,
+     "km_refait": 5.4,
+     "duree": "3 h 58",
+     "depart": {
+      "rue": "Rue Mathieu Berdoulat",
+      "station": null,
+      "p": [
+       1.40508,
+       43.56083
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Germaine Peyroles",
+      "station": "Reynerie (métro, 110 m)",
+      "p": [
+       1.40211,
+       43.57189
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-11.gpx"
+    },
+    {
+     "n": 12,
+     "km": 18.0,
+     "km_refait": 4.5,
+     "duree": "3 h 36",
+     "depart": {
+      "rue": "Avenue Winston Churchill",
+      "station": "Reynerie (métro, 110 m)",
+      "p": [
+       1.40211,
+       43.57189
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue de Tabar",
+      "station": "Mirail-Université (métro, 70 m)",
+      "p": [
+       1.40278,
+       43.57439
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-12.gpx"
+    },
+    {
+     "n": 13,
+     "km": 18.4,
+     "km_refait": 4.7,
+     "duree": "3 h 40",
+     "depart": {
+      "rue": "Avenue de Tabar",
+      "station": "Mirail-Université (métro, 70 m)",
+      "p": [
+       1.40278,
+       43.57439
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Louis Bazerque",
+      "station": "Basso Cambo (métro, 110 m)",
+      "p": [
+       1.391,
+       43.57029
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-13.gpx"
+    },
+    {
+     "n": 14,
+     "km": 23.7,
+     "km_refait": 5.4,
+     "duree": "4 h 44",
+     "depart": {
+      "rue": "Rond-point de Basso Cambo",
+      "station": "Basso Cambo (métro, 110 m)",
+      "p": [
+       1.391,
+       43.57029
+      ]
+     },
+     "arrivee": {
+      "rue": "Chemin Ferro Lebres",
+      "station": null,
+      "p": [
+       1.37698,
+       43.58994
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-14.gpx"
+    },
+    {
+     "n": 15,
+     "km": 16.3,
+     "km_refait": 4.9,
+     "duree": "3 h 16",
+     "depart": {
+      "rue": "Chemin Ferro Lebres",
+      "station": null,
+      "p": [
+       1.37698,
+       43.58994
+      ]
+     },
+     "arrivee": {
+      "rue": "Impasse Paul Groussac",
+      "station": "Lardenne (gare, 210 m)",
+      "p": [
+       1.38654,
+       43.59709
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-15.gpx"
+    },
+    {
+     "n": 16,
+     "km": 20.4,
+     "km_refait": 8.5,
+     "duree": "4 h 04",
+     "depart": {
+      "rue": "Impasse Paul Groussac",
+      "station": "Lardenne (gare, 210 m)",
+      "p": [
+       1.38654,
+       43.59709
+      ]
+     },
+     "arrivee": {
+      "rue": "Impasse Jeanne Benozzi",
+      "station": "Les Ramassiers (gare, 170 m)",
+      "p": [
+       1.35501,
+       43.60298
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-16.gpx"
+    },
+    {
+     "n": 17,
+     "km": 22.4,
+     "km_refait": 5.7,
+     "duree": "4 h 28",
+     "depart": {
+      "rue": "Impasse Jeanne Benozzi",
+      "station": "Les Ramassiers (gare, 170 m)",
+      "p": [
+       1.35501,
+       43.60298
+      ]
+     },
+     "arrivee": {
+      "rue": "Place du Docteur Joseph Baylac",
+      "station": "Purpan (tram, 390 m)",
+      "p": [
+       1.39733,
+       43.60816
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-17.gpx"
+    },
+    {
+     "n": 18,
+     "km": 22.6,
+     "km_refait": 6.7,
+     "duree": "4 h 31",
+     "depart": {
+      "rue": "Place du Docteur Joseph Baylac",
+      "station": "Purpan (tram, 390 m)",
+      "p": [
+       1.39733,
+       43.60816
+      ]
+     },
+     "arrivee": {
+      "rue": "Allée Georges Charpak",
+      "station": "Cartoucherie (tram, 70 m)",
+      "p": [
+       1.40688,
+       43.60286
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-18.gpx"
+    },
+    {
+     "n": 19,
+     "km": 22.0,
+     "km_refait": 6.0,
+     "duree": "4 h 24",
+     "depart": {
+      "rue": "Rue Thomas Dupuy",
+      "station": "Cartoucherie (tram, 70 m)",
+      "p": [
+       1.40688,
+       43.60286
+      ]
+     },
+     "arrivee": {
+      "rue": "Chemin Teynier",
+      "station": "Le TOEC (gare, 430 m)",
+      "p": [
+       1.39646,
+       43.59641
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-19.gpx"
+    },
+    {
+     "n": 20,
+     "km": 20.0,
+     "km_refait": 4.7,
+     "duree": "4 h 00",
+     "depart": {
+      "rue": "Chemin Teynier",
+      "station": "Le TOEC (gare, 430 m)",
+      "p": [
+       1.39646,
+       43.59641
+      ]
+     },
+     "arrivee": {
+      "rue": "Allées Charles de Fitte",
+      "station": "Saint-Cyprien – République (métro, 370 m)",
+      "p": [
+       1.42884,
+       43.60064
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-20.gpx"
+    },
+    {
+     "n": 21,
+     "km": 19.6,
+     "km_refait": 4.2,
+     "duree": "3 h 55",
+     "depart": {
+      "rue": "Allées Charles de Fitte",
+      "station": "Saint-Cyprien – République (métro, 370 m)",
+      "p": [
+       1.42884,
+       43.60064
+      ]
+     },
+     "arrivee": {
+      "rue": "",
+      "station": "Fer à Cheval (tram, 60 m)",
+      "p": [
+       1.43484,
+       43.59294
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-21.gpx"
+    },
+    {
+     "n": 22,
+     "km": 21.0,
+     "km_refait": 9.3,
+     "duree": "4 h 12",
+     "depart": {
+      "rue": "Cours Dillon",
+      "station": "Fer à Cheval (tram, 60 m)",
+      "p": [
+       1.43484,
+       43.59294
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Pierre G Latecoere",
+      "station": "Toulouse-Montaudran (gare, 480 m)",
+      "p": [
+       1.47878,
+       43.56944
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-22.gpx"
+    },
+    {
+     "n": 23,
+     "km": 19.1,
+     "km_refait": 7.6,
+     "duree": "3 h 49",
+     "depart": {
+      "rue": "Avenue Pierre G Latecoere",
+      "station": "Toulouse-Montaudran (gare, 480 m)",
+      "p": [
+       1.47878,
+       43.56944
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue du Corps Franc Pommies",
+      "station": "Galliéni-Cancéropôle (gare, 490 m)",
+      "p": [
+       1.42265,
+       43.56909
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-23.gpx"
+    },
+    {
+     "n": 24,
+     "km": 20.3,
+     "km_refait": 11.4,
+     "duree": "4 h 03",
+     "depart": {
+      "rue": "Avenue du Corps Franc Pommies",
+      "station": "Galliéni-Cancéropôle (gare, 490 m)",
+      "p": [
+       1.42265,
+       43.56909
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue du Saouzeloung",
+      "station": "Rangueil (métro, 330 m)",
+      "p": [
+       1.46538,
+       43.57323
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-24.gpx"
+    },
+    {
+     "n": 25,
+     "km": 17.9,
+     "km_refait": 4.1,
+     "duree": "3 h 34",
+     "depart": {
+      "rue": "Avenue du Saouzeloung",
+      "station": "Rangueil (métro, 330 m)",
+      "p": [
+       1.46538,
+       43.57323
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Larrieu-Prolongée",
+      "station": null,
+      "p": [
+       1.40902,
+       43.55204
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-25.gpx"
+    },
+    {
+     "n": 26,
+     "km": 21.3,
+     "km_refait": 5.2,
+     "duree": "4 h 15",
+     "depart": {
+      "rue": "Avenue de Larrieu",
+      "station": null,
+      "p": [
+       1.40902,
+       43.55204
+      ]
+     },
+     "arrivee": {
+      "rue": "Route de Seysses",
+      "station": "Galliéni-Cancéropôle (gare, 410 m)",
+      "p": [
+       1.41613,
+       43.57025
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-26.gpx"
+    },
+    {
+     "n": 27,
+     "km": 18.8,
+     "km_refait": 4.6,
+     "duree": "3 h 46",
+     "depart": {
+      "rue": "Route de Seysses",
+      "station": "Galliéni-Cancéropôle (gare, 410 m)",
+      "p": [
+       1.41613,
+       43.57025
+      ]
+     },
+     "arrivee": {
+      "rue": "Place de la Croix de Pierre",
+      "station": "Croix de Pierre (tram, 20 m)",
+      "p": [
+       1.42803,
+       43.58548
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-27.gpx"
+    },
+    {
+     "n": 28,
+     "km": 20.7,
+     "km_refait": 5.1,
+     "duree": "4 h 09",
+     "depart": {
+      "rue": "Place de la Croix de Pierre",
+      "station": "Croix de Pierre (tram, 20 m)",
+      "p": [
+       1.42803,
+       43.58548
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de Venise",
+      "station": "Empalot (métro, 60 m)",
+      "p": [
+       1.44262,
+       43.58005
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-28.gpx"
+    },
+    {
+     "n": 29,
+     "km": 18.9,
+     "km_refait": 4.1,
+     "duree": "3 h 46",
+     "depart": {
+      "rue": "Rue de Venise",
+      "station": "Empalot (métro, 60 m)",
+      "p": [
+       1.44262,
+       43.58005
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Jean Moulin",
+      "station": "Empalot (métro, 30 m)",
+      "p": [
+       1.44175,
+       43.57965
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-29.gpx"
+    },
+    {
+     "n": 30,
+     "km": 23.5,
+     "km_refait": 9.0,
+     "duree": "4 h 42",
+     "depart": {
+      "rue": "Rue de Cannes",
+      "station": "Empalot (métro, 30 m)",
+      "p": [
+       1.44175,
+       43.57965
+      ]
+     },
+     "arrivee": {
+      "rue": "Chemin de Pechbusque",
+      "station": null,
+      "p": [
+       1.4524,
+       43.54602
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-30.gpx"
+    },
+    {
+     "n": 31,
+     "km": 22.8,
+     "km_refait": 9.4,
+     "duree": "4 h 34",
+     "depart": {
+      "rue": "Chemin du Manel",
+      "station": null,
+      "p": [
+       1.4524,
+       43.54602
+      ]
+     },
+     "arrivee": {
+      "rue": "Route de Narbonne",
+      "station": "Université Paul Sabatier (métro, 50 m)",
+      "p": [
+       1.46267,
+       43.56086
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-31.gpx"
+    },
+    {
+     "n": 32,
+     "km": 20.3,
+     "km_refait": 6.3,
+     "duree": "4 h 04",
+     "depart": {
+      "rue": "Route de Narbonne",
+      "station": "Université Paul Sabatier (métro, 50 m)",
+      "p": [
+       1.46267,
+       43.56086
+      ]
+     },
+     "arrivee": {
+      "rue": "Impasse du Général Aubugeois",
+      "station": "Empalot (métro, 590 m)",
+      "p": [
+       1.44196,
+       43.5744
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-32.gpx"
+    },
+    {
+     "n": 33,
+     "km": 21.0,
+     "km_refait": 5.8,
+     "duree": "4 h 12",
+     "depart": {
+      "rue": "Impasse du Général Aubugeois",
+      "station": "Empalot (métro, 590 m)",
+      "p": [
+       1.44196,
+       43.5744
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Jules Julien",
+      "station": "Toulouse-Saint-Agne (gare, 40 m)",
+      "p": [
+       1.44999,
+       43.57932
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-33.gpx"
+    },
+    {
+     "n": 34,
+     "km": 18.7,
+     "km_refait": 4.3,
+     "duree": "3 h 45",
+     "depart": {
+      "rue": "Impasse Jean Pierre Moulive",
+      "station": "Toulouse-Saint-Agne (gare, 40 m)",
+      "p": [
+       1.44999,
+       43.57932
+      ]
+     },
+     "arrivee": {
+      "rue": "Place Sainte Germaine",
+      "station": "Saint-Agne SNCF (métro, 60 m)",
+      "p": [
+       1.44941,
+       43.58046
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-34.gpx"
+    },
+    {
+     "n": 35,
+     "km": 22.9,
+     "km_refait": 4.5,
+     "duree": "4 h 35",
+     "depart": {
+      "rue": "Avenue de l'URSS",
+      "station": "Saint-Agne SNCF (métro, 60 m)",
+      "p": [
+       1.44941,
+       43.58046
+      ]
+     },
+     "arrivee": {
+      "rue": "",
+      "station": "Faculté de Pharmacie (métro, 50 m)",
+      "p": [
+       1.46425,
+       43.56771
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-35.gpx"
+    },
+    {
+     "n": 36,
+     "km": 21.8,
+     "km_refait": 6.6,
+     "duree": "4 h 22",
+     "depart": {
+      "rue": "Chemin des Maraîchers",
+      "station": "Faculté de Pharmacie (métro, 50 m)",
+      "p": [
+       1.46425,
+       43.56771
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Marc Pelegrin",
+      "station": "Toulouse-Montaudran (gare, 540 m)",
+      "p": [
+       1.47457,
+       43.57093
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-36.gpx"
+    },
+    {
+     "n": 37,
+     "km": 19.0,
+     "km_refait": 4.5,
+     "duree": "3 h 48",
+     "depart": {
+      "rue": "Avenue Marc Pelegrin",
+      "station": "Toulouse-Montaudran (gare, 540 m)",
+      "p": [
+       1.47457,
+       43.57093
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue de l'Aerodrome de Montaudran",
+      "station": "Toulouse-Montaudran (gare, 70 m)",
+      "p": [
+       1.48006,
+       43.57304
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-37.gpx"
+    },
+    {
+     "n": 38,
+     "km": 17.1,
+     "km_refait": 6.3,
+     "duree": "3 h 25",
+     "depart": {
+      "rue": "Rue Beppo de Massimi",
+      "station": "Toulouse-Montaudran (gare, 70 m)",
+      "p": [
+       1.48006,
+       43.57304
+      ]
+     },
+     "arrivee": {
+      "rue": "",
+      "station": null,
+      "p": [
+       1.49606,
+       43.55878
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-38.gpx"
+    },
+    {
+     "n": 39,
+     "km": 22.9,
+     "km_refait": 6.6,
+     "duree": "4 h 35",
+     "depart": {
+      "rue": "",
+      "station": null,
+      "p": [
+       1.49606,
+       43.55878
+      ]
+     },
+     "arrivee": {
+      "rue": "Route de Revel",
+      "station": null,
+      "p": [
+       1.49319,
+       43.57308
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-39.gpx"
+    },
+    {
+     "n": 40,
+     "km": 20.0,
+     "km_refait": 5.7,
+     "duree": "4 h 00",
+     "depart": {
+      "rue": "Avenue Marcel Dassault",
+      "station": null,
+      "p": [
+       1.49319,
+       43.57308
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Marcel Dassault",
+      "station": null,
+      "p": [
+       1.49416,
+       43.58151
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-40.gpx"
+    },
+    {
+     "n": 41,
+     "km": 22.8,
+     "km_refait": 5.1,
+     "duree": "4 h 34",
+     "depart": {
+      "rue": "Avenue Marcel Dassault",
+      "station": null,
+      "p": [
+       1.49416,
+       43.58151
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Christiane",
+      "station": null,
+      "p": [
+       1.46781,
+       43.58549
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-41.gpx"
+    },
+    {
+     "n": 42,
+     "km": 22.1,
+     "km_refait": 4.7,
+     "duree": "4 h 26",
+     "depart": {
+      "rue": "Rue Jean Chaptal",
+      "station": null,
+      "p": [
+       1.46781,
+       43.58549
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Pierre Lauzeral",
+      "station": "Toulouse-Montaudran (gare, 720 m)",
+      "p": [
+       1.48009,
+       43.58008
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-42.gpx"
+    },
+    {
+     "n": 43,
+     "km": 17.3,
+     "km_refait": 3.8,
+     "duree": "3 h 27",
+     "depart": {
+      "rue": "Rue Pierre Lauzeral",
+      "station": "Toulouse-Montaudran (gare, 720 m)",
+      "p": [
+       1.48009,
+       43.58008
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de Tahiti",
+      "station": "Toulouse-Montaudran (gare, 680 m)",
+      "p": [
+       1.48123,
+       43.5797
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-43.gpx"
+    },
+    {
+     "n": 44,
+     "km": 21.7,
+     "km_refait": 4.6,
+     "duree": "4 h 21",
+     "depart": {
+      "rue": "Avenue Antoine de Saint Exupéry",
+      "station": "Toulouse-Montaudran (gare, 680 m)",
+      "p": [
+       1.48123,
+       43.5797
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard de la Méditerranée",
+      "station": "Saouzelong (métro, 420 m)",
+      "p": [
+       1.46382,
+       43.58119
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-44.gpx"
+    },
+    {
+     "n": 45,
+     "km": 19.1,
+     "km_refait": 3.7,
+     "duree": "3 h 50",
+     "depart": {
+      "rue": "Boulevard de la Méditerranée",
+      "station": "Saouzelong (métro, 420 m)",
+      "p": [
+       1.46382,
+       43.58119
+      ]
+     },
+     "arrivee": {
+      "rue": "",
+      "station": "Toulouse-Matabiau (gare, 100 m)",
+      "p": [
+       1.45293,
+       43.61159
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-45.gpx"
+    },
+    {
+     "n": 46,
+     "km": 20.2,
+     "km_refait": 4.3,
+     "duree": "4 h 03",
+     "depart": {
+      "rue": "Boulevard Pierre Semard",
+      "station": "Toulouse-Matabiau (gare, 100 m)",
+      "p": [
+       1.45293,
+       43.61159
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Noémie Dessalles",
+      "station": "Jolimont (métro, 230 m)",
+      "p": [
+       1.4614,
+       43.61677
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-46.gpx"
+    },
+    {
+     "n": 47,
+     "km": 21.8,
+     "km_refait": 5.7,
+     "duree": "4 h 22",
+     "depart": {
+      "rue": "Rue Noémie Dessalles",
+      "station": "Jolimont (métro, 230 m)",
+      "p": [
+       1.4614,
+       43.61677
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Lucille",
+      "station": "Canal du Midi (métro, 250 m)",
+      "p": [
+       1.43237,
+       43.61703
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-47.gpx"
+    },
+    {
+     "n": 48,
+     "km": 22.4,
+     "km_refait": 5.7,
+     "duree": "4 h 29",
+     "depart": {
+      "rue": "Rue Lucille",
+      "station": "Canal du Midi (métro, 250 m)",
+      "p": [
+       1.43237,
+       43.61703
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue des Minimes",
+      "station": "Barrière de Paris (métro, 40 m)",
+      "p": [
+       1.43394,
+       43.62597
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-48.gpx"
+    },
+    {
+     "n": 49,
+     "km": 21.3,
+     "km_refait": 5.0,
+     "duree": "4 h 15",
+     "depart": {
+      "rue": "Avenue des Minimes",
+      "station": "Barrière de Paris (métro, 40 m)",
+      "p": [
+       1.43394,
+       43.62597
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Paul Verlaine",
+      "station": "La Vache (métro, 90 m)",
+      "p": [
+       1.43542,
+       43.6334
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-49.gpx"
+    },
+    {
+     "n": 50,
+     "km": 17.0,
+     "km_refait": 5.2,
+     "duree": "3 h 25",
+     "depart": {
+      "rue": "Rue Paul Verlaine",
+      "station": "La Vache (métro, 90 m)",
+      "p": [
+       1.43542,
+       43.6334
+      ]
+     },
+     "arrivee": {
+      "rue": "Impasse des Palombes",
+      "station": "Lacourtensourt (gare, 230 m)",
+      "p": [
+       1.41129,
+       43.66304
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-50.gpx"
+    },
+    {
+     "n": 51,
+     "km": 23.0,
+     "km_refait": 6.7,
+     "duree": "4 h 36",
+     "depart": {
+      "rue": "Impasse des Palombes",
+      "station": "Lacourtensourt (gare, 230 m)",
+      "p": [
+       1.41129,
+       43.66304
+      ]
+     },
+     "arrivee": {
+      "rue": "Route de Launaguet",
+      "station": null,
+      "p": [
+       1.43924,
+       43.64592
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-51.gpx"
+    },
+    {
+     "n": 52,
+     "km": 18.3,
+     "km_refait": 4.6,
+     "duree": "3 h 40",
+     "depart": {
+      "rue": "Route de Launaguet",
+      "station": null,
+      "p": [
+       1.43924,
+       43.64592
+      ]
+     },
+     "arrivee": {
+      "rue": "Chemin des Izards",
+      "station": null,
+      "p": [
+       1.44313,
+       43.6479
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-52.gpx"
+    },
+    {
+     "n": 53,
+     "km": 18.2,
+     "km_refait": 5.2,
+     "duree": "3 h 38",
+     "depart": {
+      "rue": "Chemin des Izards",
+      "station": null,
+      "p": [
+       1.44313,
+       43.6479
+      ]
+     },
+     "arrivee": {
+      "rue": "Place Ahmed Chenane",
+      "station": "Trois Cocus (métro, 20 m)",
+      "p": [
+       1.44468,
+       43.63811
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-53.gpx"
+    },
+    {
+     "n": 54,
+     "km": 22.8,
+     "km_refait": 7.1,
+     "duree": "4 h 34",
+     "depart": {
+      "rue": "Place Ahmed Chenane",
+      "station": "Trois Cocus (métro, 20 m)",
+      "p": [
+       1.44468,
+       43.63811
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Françoise d'Eaubonne",
+      "station": "Borderouge (métro, 190 m)",
+      "p": [
+       1.4538,
+       43.64188
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-54.gpx"
+    },
+    {
+     "n": 55,
+     "km": 19.2,
+     "km_refait": 6.2,
+     "duree": "3 h 50",
+     "depart": {
+      "rue": "Rue Françoise d'Eaubonne",
+      "station": "Borderouge (métro, 190 m)",
+      "p": [
+       1.4538,
+       43.64188
+      ]
+     },
+     "arrivee": {
+      "rue": "Chemin Pujibet",
+      "station": "Borderouge (métro, 250 m)",
+      "p": [
+       1.45556,
+       43.64014
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-55.gpx"
+    },
+    {
+     "n": 56,
+     "km": 19.5,
+     "km_refait": 6.8,
+     "duree": "3 h 54",
+     "depart": {
+      "rue": "Chemin Pujibet",
+      "station": "Borderouge (métro, 250 m)",
+      "p": [
+       1.45556,
+       43.64014
+      ]
+     },
+     "arrivee": {
+      "rue": "Espace du Ramelet",
+      "station": null,
+      "p": [
+       1.46203,
+       43.63697
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-56.gpx"
+    },
+    {
+     "n": 57,
+     "km": 19.8,
+     "km_refait": 6.3,
+     "duree": "3 h 58",
+     "depart": {
+      "rue": "Espace du Ramelet",
+      "station": null,
+      "p": [
+       1.46203,
+       43.63697
+      ]
+     },
+     "arrivee": {
+      "rue": "Route d'Agde",
+      "station": null,
+      "p": [
+       1.48939,
+       43.63257
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-57.gpx"
+    },
+    {
+     "n": 58,
+     "km": 23.0,
+     "km_refait": 5.2,
+     "duree": "4 h 36",
+     "depart": {
+      "rue": "Route d'Agde",
+      "station": null,
+      "p": [
+       1.48939,
+       43.63257
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Rosette",
+      "station": "Jolimont (métro, 240 m)",
+      "p": [
+       1.46427,
+       43.61738
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-58.gpx"
+    },
+    {
+     "n": 59,
+     "km": 23.1,
+     "km_refait": 5.4,
+     "duree": "4 h 37",
+     "depart": {
+      "rue": "Rue Monserby",
+      "station": "Jolimont (métro, 240 m)",
+      "p": [
+       1.46427,
+       43.61738
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Ernest Renan",
+      "station": "La Vache (métro, 680 m)",
+      "p": [
+       1.44382,
+       43.63177
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-59.gpx"
+    },
+    {
+     "n": 60,
+     "km": 18.7,
+     "km_refait": 6.1,
+     "duree": "3 h 44",
+     "depart": {
+      "rue": "Rue Ernest Renan",
+      "station": "La Vache (métro, 680 m)",
+      "p": [
+       1.44382,
+       43.63177
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue du Petit Castelet",
+      "station": null,
+      "p": [
+       1.45782,
+       43.63329
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-60.gpx"
+    },
+    {
+     "n": 61,
+     "km": 19.8,
+     "km_refait": 4.4,
+     "duree": "3 h 58",
+     "depart": {
+      "rue": "Rue du Petit Castelet",
+      "station": null,
+      "p": [
+       1.45782,
+       43.63329
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue des Orchidées",
+      "station": "Roseraie (métro, 130 m)",
+      "p": [
+       1.47005,
+       43.62114
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-61.gpx"
+    },
+    {
+     "n": 62,
+     "km": 22.0,
+     "km_refait": 4.3,
+     "duree": "4 h 24",
+     "depart": {
+      "rue": "Route d'Agde",
+      "station": "Roseraie (métro, 130 m)",
+      "p": [
+       1.47005,
+       43.62114
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Emmanuel Maignan",
+      "station": "Canal du Midi (métro, 160 m)",
+      "p": [
+       1.434,
+       43.61684
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-62.gpx"
+    },
+    {
+     "n": 63,
+     "km": 16.6,
+     "km_refait": 3.2,
+     "duree": "3 h 19",
+     "depart": {
+      "rue": "Rue Montesquieu",
+      "station": "Canal du Midi (métro, 160 m)",
+      "p": [
+       1.434,
+       43.61684
+      ]
+     },
+     "arrivee": {
+      "rue": "Place Micoulaud",
+      "station": "Trois Cocus (métro, 60 m)",
+      "p": [
+       1.44421,
+       43.63803
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-63.gpx"
+    },
+    {
+     "n": 64,
+     "km": 16.2,
+     "km_refait": 3.1,
+     "duree": "3 h 14",
+     "depart": {
+      "rue": "Chemin des Izards",
+      "station": "Trois Cocus (métro, 60 m)",
+      "p": [
+       1.44421,
+       43.63803
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue de Fondeyre",
+      "station": "La Vache (métro, 750 m)",
+      "p": [
+       1.42744,
+       43.63669
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-64.gpx"
+    },
+    {
+     "n": 65,
+     "km": 22.4,
+     "km_refait": 7.0,
+     "duree": "4 h 29",
+     "depart": {
+      "rue": "Rue Federico Garcia Lorca",
+      "station": "La Vache (métro, 750 m)",
+      "p": [
+       1.42744,
+       43.63669
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Bardou",
+      "station": "Arènes Romaines (tram, 650 m)",
+      "p": [
+       1.40571,
+       43.61638
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-65.gpx"
+    },
+    {
+     "n": 66,
+     "km": 23.7,
+     "km_refait": 5.9,
+     "duree": "4 h 44",
+     "depart": {
+      "rue": "Allée Firmin Bouisset",
+      "station": "Arènes Romaines (tram, 650 m)",
+      "p": [
+       1.40571,
+       43.61638
+      ]
+     },
+     "arrivee": {
+      "rue": "Cheminement André Malraux",
+      "station": "Compans-Caffarelli (métro, 230 m)",
+      "p": [
+       1.43231,
+       43.61011
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-66.gpx"
+    },
+    {
+     "n": 67,
+     "km": 20.7,
+     "km_refait": 2.7,
+     "duree": "4 h 08",
+     "depart": {
+      "rue": "Cheminement André Malraux",
+      "station": "Compans-Caffarelli (métro, 230 m)",
+      "p": [
+       1.43231,
+       43.61011
+      ]
+     },
+     "arrivee": {
+      "rue": "Parvis Francoise Heybrard de Veyrinas",
+      "station": "Carmes (métro, 10 m)",
+      "p": [
+       1.44545,
+       43.59761
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-67.gpx"
+    },
+    {
+     "n": 68,
+     "km": 20.2,
+     "km_refait": 3.7,
+     "duree": "4 h 02",
+     "depart": {
+      "rue": "Parvis Francoise Heybrard de Veyrinas",
+      "station": "Carmes (métro, 10 m)",
+      "p": [
+       1.44545,
+       43.59761
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Rapas",
+      "station": "Avenue de Muret-Marcel Cavaillé (tram, 30 m)",
+      "p": [
+       1.43157,
+       43.58916
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-68.gpx"
+    },
+    {
+     "n": 69,
+     "km": 21.4,
+     "km_refait": 4.8,
+     "duree": "4 h 17",
+     "depart": {
+      "rue": "Avenue de Muret",
+      "station": "Avenue de Muret-Marcel Cavaillé (tram, 30 m)",
+      "p": [
+       1.43157,
+       43.58916
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de la Martinique",
+      "station": "Bagatelle (métro, 110 m)",
+      "p": [
+       1.41154,
+       43.58085
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-69.gpx"
+    },
+    {
+     "n": 70,
+     "km": 18.9,
+     "km_refait": 3.7,
+     "duree": "3 h 47",
+     "depart": {
+      "rue": "Rue de la Martinique",
+      "station": "Bagatelle (métro, 110 m)",
+      "p": [
+       1.41154,
+       43.58085
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Henri Desbals",
+      "station": "Bagatelle (métro, 10 m)",
+      "p": [
+       1.41223,
+       43.57993
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-70.gpx"
+    },
+    {
+     "n": 71,
+     "km": 20.5,
+     "km_refait": 4.5,
+     "duree": "4 h 06",
+     "depart": {
+      "rue": "Rue du Lot",
+      "station": "Bagatelle (métro, 10 m)",
+      "p": [
+       1.41223,
+       43.57993
+      ]
+     },
+     "arrivee": {
+      "rue": "Place Agapito Nadal",
+      "station": "Arènes (métro, 30 m)",
+      "p": [
+       1.4188,
+       43.59369
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-71.gpx"
+    },
+    {
+     "n": 72,
+     "km": 21.6,
+     "km_refait": 4.2,
+     "duree": "4 h 19",
+     "depart": {
+      "rue": "Place Agapito Nadal",
+      "station": "Arènes (métro, 30 m)",
+      "p": [
+       1.4188,
+       43.59369
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue des Filatiers",
+      "station": "Esquirol (métro, 20 m)",
+      "p": [
+       1.44381,
+       43.59993
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-72.gpx"
+    },
+    {
+     "n": 73,
+     "km": 20.9,
+     "km_refait": 3.6,
+     "duree": "4 h 11",
+     "depart": {
+      "rue": "Rue des Changes",
+      "station": "Esquirol (métro, 20 m)",
+      "p": [
+       1.44381,
+       43.59993
+      ]
+     },
+     "arrivee": {
+      "rue": "Square Vincenzo Tonelli",
+      "station": "Roseraie (métro, 20 m)",
+      "p": [
+       1.46945,
+       43.62014
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-73.gpx"
+    },
+    {
+     "n": 74,
+     "km": 22.3,
+     "km_refait": 5.7,
+     "duree": "4 h 27",
+     "depart": {
+      "rue": "Square Vincenzo Tonelli",
+      "station": "Roseraie (métro, 20 m)",
+      "p": [
+       1.46945,
+       43.62014
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Victor Basch",
+      "station": null,
+      "p": [
+       1.46692,
+       43.59934
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-74.gpx"
+    },
+    {
+     "n": 75,
+     "km": 21.0,
+     "km_refait": 4.1,
+     "duree": "4 h 12",
+     "depart": {
+      "rue": "Avenue Raymond Naves",
+      "station": null,
+      "p": [
+       1.46692,
+       43.59934
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Jacques Chirac",
+      "station": "Jolimont (métro, 210 m)",
+      "p": [
+       1.4656,
+       43.6143
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-75.gpx"
+    },
+    {
+     "n": 76,
+     "km": 23.1,
+     "km_refait": 4.5,
+     "duree": "4 h 38",
+     "depart": {
+      "rue": "Avenue Jacques Chirac",
+      "station": "Jolimont (métro, 210 m)",
+      "p": [
+       1.4656,
+       43.6143
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Jean Rieux",
+      "station": null,
+      "p": [
+       1.46687,
+       43.59282
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-76.gpx"
+    },
+    {
+     "n": 77,
+     "km": 20.7,
+     "km_refait": 3.5,
+     "duree": "4 h 09",
+     "depart": {
+      "rue": "Avenue Jean Rieux",
+      "station": null,
+      "p": [
+       1.46687,
+       43.59282
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Jacques Chirac",
+      "station": null,
+      "p": [
+       1.47331,
+       43.60677
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-77.gpx"
+    },
+    {
+     "n": 78,
+     "km": 23.8,
+     "km_refait": 5.1,
+     "duree": "4 h 46",
+     "depart": {
+      "rue": "Avenue de la Gloire",
+      "station": null,
+      "p": [
+       1.47331,
+       43.60677
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue du Parc",
+      "station": "Roseraie (métro, 20 m)",
+      "p": [
+       1.4699,
+       43.62006
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-78.gpx"
+    },
+    {
+     "n": 79,
+     "km": 21.3,
+     "km_refait": 3.7,
+     "duree": "4 h 16",
+     "depart": {
+      "rue": "Place de la Roseraie",
+      "station": "Roseraie (métro, 20 m)",
+      "p": [
+       1.4699,
+       43.62006
+      ]
+     },
+     "arrivee": {
+      "rue": "Chemin de la Cale",
+      "station": "Saouzelong (métro, 420 m)",
+      "p": [
+       1.46382,
+       43.58119
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-79.gpx"
+    },
+    {
+     "n": 80,
+     "km": 22.0,
+     "km_refait": 3.7,
+     "duree": "4 h 24",
+     "depart": {
+      "rue": "Boulevard de la Méditerranée",
+      "station": "Saouzelong (métro, 420 m)",
+      "p": [
+       1.46382,
+       43.58119
+      ]
+     },
+     "arrivee": {
+      "rue": "Allées Paul Feuga",
+      "station": "Palais de Justice (métro, 30 m)",
+      "p": [
+       1.44452,
+       43.59274
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-80.gpx"
+    },
+    {
+     "n": 81,
+     "km": 12.1,
+     "km_refait": 2.5,
+     "duree": "2 h 26",
+     "depart": {
+      "rue": "Place Auguste Lafourcade",
+      "station": "Palais de Justice (métro, 30 m)",
+      "p": [
+       1.44452,
+       43.59274
+      ]
+     },
+     "arrivee": {
+      "rue": "Place du Capitole",
+      "station": "Capitole (métro, 200 m)",
+      "p": [
+       1.44283,
+       43.60483
+      ]
+     },
+     "gpx": "toulouse/gpx/toulouse-etape-81.gpx"
+    }
+   ]
+  },
+  {
+   "cle": "lille",
+   "nom": "Lille",
+   "km_total": 436,
+   "km_rues": 330,
+   "km_refait": 104,
+   "nb_etapes": 23,
+   "perimetre": "Rues des 10 quartiers de Lille (sans Lomme ni Hellemmes), courées et cités comprises.",
+   "source": "Ville de Lille, tronçons de rue (data.lillemetropole.fr), données du 13/11/2026",
+   "complet": "lille/gpx/lille-complet.gpx",
+   "complet_mo": 0.4,
+   "etapes": [
+    {
+     "n": 1,
+     "km": 20.4,
+     "km_refait": 4.8,
+     "duree": "4 h 05",
+     "depart": {
+      "rue": "Rue Esquermoise",
+      "station": "Rihour (métro, 170 m)",
+      "p": [
+       3.06289,
+       50.63718
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Gauthier de Chatillon",
+      "station": "République - Beaux-Arts (métro, 120 m)",
+      "p": [
+       3.06134,
+       50.63064
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-01.gpx"
+    },
+    {
+     "n": 2,
+     "km": 16.1,
+     "km_refait": 4.9,
+     "duree": "3 h 13",
+     "depart": {
+      "rue": "Rue Nicolas Leblanc",
+      "station": "République - Beaux-Arts (métro, 120 m)",
+      "p": [
+       3.06134,
+       50.63064
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard de Belfort",
+      "station": "Porte de Valenciennes (métro, 30 m)",
+      "p": [
+       3.0786,
+       50.62092
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-02.gpx"
+    },
+    {
+     "n": 3,
+     "km": 16.8,
+     "km_refait": 4.9,
+     "duree": "3 h 22",
+     "depart": {
+      "rue": "Rue Kellermann",
+      "station": "Porte de Valenciennes (métro, 30 m)",
+      "p": [
+       3.0786,
+       50.62092
+      ]
+     },
+     "arrivee": {
+      "rue": "Chemin Lateral",
+      "station": "Lille – Porte de Douai (gare, 60 m)",
+      "p": [
+       3.07502,
+       50.6121
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-03.gpx"
+    },
+    {
+     "n": 4,
+     "km": 17.5,
+     "km_refait": 4.2,
+     "duree": "3 h 30",
+     "depart": {
+      "rue": "Rue du Faubourg de Douai",
+      "station": "Lille – Porte de Douai (gare, 60 m)",
+      "p": [
+       3.07502,
+       50.6121
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de l'Asie",
+      "station": null,
+      "p": [
+       3.05439,
+       50.61022
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-04.gpx"
+    },
+    {
+     "n": 5,
+     "km": 19.4,
+     "km_refait": 4.6,
+     "duree": "3 h 52",
+     "depart": {
+      "rue": "Rue de l'Asie",
+      "station": null,
+      "p": [
+       3.05439,
+       50.61022
+      ]
+     },
+     "arrivee": {
+      "rue": "Place de Verdun",
+      "station": "Lille Centre Hospitalier Régional (gare, 160 m)",
+      "p": [
+       3.03607,
+       50.61363
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-05.gpx"
+    },
+    {
+     "n": 6,
+     "km": 18.0,
+     "km_refait": 5.8,
+     "duree": "3 h 37",
+     "depart": {
+      "rue": "Rue Frédéric Combemale",
+      "station": "Lille Centre Hospitalier Régional (gare, 160 m)",
+      "p": [
+       3.03607,
+       50.61363
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de Finlande",
+      "station": "Lille Centre Hospitalier Régional (gare, 270 m)",
+      "p": [
+       3.03042,
+       50.61457
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-06.gpx"
+    },
+    {
+     "n": 7,
+     "km": 19.9,
+     "km_refait": 5.0,
+     "duree": "3 h 58",
+     "depart": {
+      "rue": "Rue du Chevalier de l'Espinard",
+      "station": "Lille Centre Hospitalier Régional (gare, 270 m)",
+      "p": [
+       3.03042,
+       50.61457
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard Montebello",
+      "station": "Porte des Postes (métro, 50 m)",
+      "p": [
+       3.04969,
+       50.61864
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-07.gpx"
+    },
+    {
+     "n": 8,
+     "km": 16.1,
+     "km_refait": 3.9,
+     "duree": "3 h 13",
+     "depart": {
+      "rue": "Boulevard Montebello",
+      "station": "Porte des Postes (métro, 50 m)",
+      "p": [
+       3.04969,
+       50.61864
+      ]
+     },
+     "arrivee": {
+      "rue": "Boulevard de la Moselle",
+      "station": "Port de Lille (métro, 20 m)",
+      "p": [
+       3.03548,
+       50.63008
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-08.gpx"
+    },
+    {
+     "n": 9,
+     "km": 16.5,
+     "km_refait": 3.9,
+     "duree": "3 h 18",
+     "depart": {
+      "rue": "Rue de Turenne",
+      "station": "Port de Lille (métro, 20 m)",
+      "p": [
+       3.03548,
+       50.63008
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Bayard",
+      "station": "Porte des Postes (métro, 310 m)",
+      "p": [
+       3.05433,
+       50.61952
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-09.gpx"
+    },
+    {
+     "n": 10,
+     "km": 20.3,
+     "km_refait": 4.0,
+     "duree": "4 h 03",
+     "depart": {
+      "rue": "Rue de Condé",
+      "station": "Porte des Postes (métro, 310 m)",
+      "p": [
+       3.05433,
+       50.61952
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Jules Guesde",
+      "station": "Wazemmes (métro, 100 m)",
+      "p": [
+       3.0503,
+       50.62379
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-10.gpx"
+    },
+    {
+     "n": 11,
+     "km": 19.5,
+     "km_refait": 2.3,
+     "duree": "3 h 54",
+     "depart": {
+      "rue": "Rue d'Arcole",
+      "station": "Wazemmes (métro, 100 m)",
+      "p": [
+       3.0503,
+       50.62379
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue Eugène Varlin",
+      "station": "Lille Grand Palais (métro, 20 m)",
+      "p": [
+       3.07519,
+       50.62947
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-11.gpx"
+    },
+    {
+     "n": 12,
+     "km": 16.1,
+     "km_refait": 4.2,
+     "duree": "3 h 13",
+     "depart": {
+      "rue": "Boulevard du Maréchal Vaillant",
+      "station": "Lille Grand Palais (métro, 20 m)",
+      "p": [
+       3.07519,
+       50.62947
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue André Ballet",
+      "station": "Marbrerie (métro, 50 m)",
+      "p": [
+       3.09729,
+       50.63038
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-12.gpx"
+    },
+    {
+     "n": 13,
+     "km": 20.4,
+     "km_refait": 5.7,
+     "duree": "4 h 05",
+     "depart": {
+      "rue": "Rue André Ballet",
+      "station": "Marbrerie (métro, 50 m)",
+      "p": [
+       3.09729,
+       50.63038
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Pierre Legrand",
+      "station": "Marbrerie (métro, 0 m)",
+      "p": [
+       3.09797,
+       50.63012
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-13.gpx"
+    },
+    {
+     "n": 14,
+     "km": 18.7,
+     "km_refait": 4.4,
+     "duree": "3 h 44",
+     "depart": {
+      "rue": "Rue Pierre Legrand",
+      "station": "Marbrerie (métro, 0 m)",
+      "p": [
+       3.09797,
+       50.63012
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue de Flers",
+      "station": "Madeleine Caulier (métro, 70 m)",
+      "p": [
+       3.08734,
+       50.63719
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-14.gpx"
+    },
+    {
+     "n": 15,
+     "km": 20.1,
+     "km_refait": 6.9,
+     "duree": "4 h 01",
+     "depart": {
+      "rue": "Rue de la Cité",
+      "station": "Madeleine Caulier (métro, 70 m)",
+      "p": [
+       3.08734,
+       50.63719
+      ]
+     },
+     "arrivee": {
+      "rue": "Square Wannoschot",
+      "station": "Buisson (tram, 70 m)",
+      "p": [
+       3.08772,
+       50.6558
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-15.gpx"
+    },
+    {
+     "n": 16,
+     "km": 19.0,
+     "km_refait": 4.6,
+     "duree": "3 h 48",
+     "depart": {
+      "rue": "Avenue de la République",
+      "station": "Buisson (tram, 70 m)",
+      "p": [
+       3.08772,
+       50.6558
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Eugène Jacquet",
+      "station": "Madeleine Caulier (métro, 50 m)",
+      "p": [
+       3.08741,
+       50.63643
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-16.gpx"
+    },
+    {
+     "n": 17,
+     "km": 18.8,
+     "km_refait": 3.7,
+     "duree": "3 h 45",
+     "depart": {
+      "rue": "Rue Eugène Jacquet",
+      "station": "Madeleine Caulier (métro, 50 m)",
+      "p": [
+       3.08741,
+       50.63643
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Arnould de Vuez",
+      "station": "République - Beaux-Arts (métro, 80 m)",
+      "p": [
+       3.06077,
+       50.63231
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-17.gpx"
+    },
+    {
+     "n": 18,
+     "km": 21.4,
+     "km_refait": 4.9,
+     "duree": "4 h 17",
+     "depart": {
+      "rue": "Boulevard de la Liberté",
+      "station": "République - Beaux-Arts (métro, 80 m)",
+      "p": [
+       3.06077,
+       50.63231
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue du Bastion du Meunier",
+      "station": "Gare Lille Europe (tram, 520 m)",
+      "p": [
+       3.06906,
+       50.64322
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-18.gpx"
+    },
+    {
+     "n": 19,
+     "km": 18.4,
+     "km_refait": 3.4,
+     "duree": "3 h 41",
+     "depart": {
+      "rue": "Rue du Bastion du Meunier",
+      "station": "Gare Lille Europe (tram, 520 m)",
+      "p": [
+       3.06906,
+       50.64322
+      ]
+     },
+     "arrivee": {
+      "rue": "Allée Jean-Pierre Barillet-Deschamps",
+      "station": null,
+      "p": [
+       3.04088,
+       50.63768
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-19.gpx"
+    },
+    {
+     "n": 20,
+     "km": 19.5,
+     "km_refait": 4.3,
+     "duree": "3 h 53",
+     "depart": {
+      "rue": "Allée Jean-Pierre Barillet-Deschamps",
+      "station": null,
+      "p": [
+       3.04088,
+       50.63768
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue de Dunkerque",
+      "station": "Bois Blancs (métro, 10 m)",
+      "p": [
+       3.03056,
+       50.63425
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-20.gpx"
+    },
+    {
+     "n": 21,
+     "km": 20.0,
+     "km_refait": 6.1,
+     "duree": "4 h 01",
+     "depart": {
+      "rue": "Avenue de Dunkerque",
+      "station": "Bois Blancs (métro, 10 m)",
+      "p": [
+       3.03056,
+       50.63425
+      ]
+     },
+     "arrivee": {
+      "rue": "Avenue de Dunkerque",
+      "station": "Bois Blancs (métro, 40 m)",
+      "p": [
+       3.03027,
+       50.63467
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-21.gpx"
+    },
+    {
+     "n": 22,
+     "km": 18.3,
+     "km_refait": 2.9,
+     "duree": "3 h 40",
+     "depart": {
+      "rue": "Rue de Cassel",
+      "station": "Bois Blancs (métro, 40 m)",
+      "p": [
+       3.03027,
+       50.63467
+      ]
+     },
+     "arrivee": {
+      "rue": "Square Henri Ghesquière",
+      "station": "Wazemmes (métro, 30 m)",
+      "p": [
+       3.05142,
+       50.62326
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-22.gpx"
+    },
+    {
+     "n": 23,
+     "km": 24.6,
+     "km_refait": 5.1,
+     "duree": "4 h 55",
+     "depart": {
+      "rue": "",
+      "station": "Wazemmes (métro, 30 m)",
+      "p": [
+       3.05142,
+       50.62326
+      ]
+     },
+     "arrivee": {
+      "rue": "Rue Nationale",
+      "station": "Rihour (métro, 170 m)",
+      "p": [
+       3.06289,
+       50.63718
+      ]
+     },
+     "gpx": "lille/gpx/lille-etape-23.gpx"
     }
    ]
   }
